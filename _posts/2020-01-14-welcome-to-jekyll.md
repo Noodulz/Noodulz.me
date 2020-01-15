@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll! (Or How I Spent 7 Ungodly Hours Building this Site with Jekyll)
+title:  "I built and hosted a Jekyll website in 15 hours so that you don't have to!"
 date:   2020-01-14 20:47:30 -0500
 ---
 # I built and hosted a Jekyll website in 15 hours so that you don't have to! 
