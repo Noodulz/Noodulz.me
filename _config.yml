@@ -16,15 +16,7 @@ markdown: kramdown
 remote_theme: mattvh/solar-theme-jekyll
 plugins:
   - jekyll-feed
-
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+gems: [jekyll-paginate]
+permalink: /:year/:month/:day/:title/
+paginate: 10
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
