@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll! (Or How I Spent 7 Ungodly Hours Building this Site with Jekyll)
 date:   2020-01-14 20:47:30 -0500
 ---
-# I built and hosted a Jekyll website in 15 hours so that you don't have to 
+# I built and hosted a Jekyll website in 15 hours so that you don't have to! 
 Let me start off by saying that for those who are still learning web development, programming, or still feel like a fresh young new baby when it comes to the world of CS and web dev: It's okay to have 20 tabs open full of command cheatsheets and tutorials because you're often forgetful. It's okay to have those 20+ tabs take up the majority of your RAM and heat up whatever surface you're on. Don't listen to those pish posh people saying those bunches of open tabs out in the wild give them anxiety (I love you Insom, whatever your name is in real life). We are all still learning, and prone to mistakes and forgetfulness, so take pride in that, y'all. 
 
 In fact, I have just finished this site at 12:30 am on a Wednesday dusk and have decided against studying for my Kanji quiz (yet) for my test in 9 hours, and instead write this before I slave away to the calls of the engineering student grind. 
