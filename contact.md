@@ -2,7 +2,7 @@
 YAML front matter
 title: Contact Me
 layout: default
-permalink: /contact/
+permalink: /contact
 ---
 
 I can be reached reliably via email!
