@@ -17,6 +17,7 @@ markdown: kramdown
 remote_theme: mattvh/solar-theme-jekyll
 plugins:
   - jekyll-feed
+  - jemoji
 gems: [jekyll-paginate]
 plugins: [jekyll-paginate]
 permalink: /:year/:month/:day/:title/
