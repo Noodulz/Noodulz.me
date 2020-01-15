@@ -14,8 +14,6 @@ Now, this all started with sneaking a peek the other day at a few of my friends'
 
 And so, I rushed to the public library and read for 2 hours on the documentation and tutorials for Github Pages and then the documentation for Jekyll, as well as the numerous themes that I could now choose from. Then it was just reading [tutorial](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) after [tutorial](https://michelleful.github.io/code-blog//2014/02/28/setting-up-a-jekyll-blog-on-github-pages/) after [tutorial](https://24ways.org/2013/get-started-with-github-pages/) to kind of get it in my head what I need to do and remember. And then the magic begins. 
 
-![A Gist of the Git Mess](/images/progressingitone.png)
-
 At first, I was lost between following two different resources telling me different things to do to build jekyll and the website locally. Don't do this. Stick to one thing or one resource only for specific major steps. There's a plethora of resources out there that I'm constantly overwhelmed by. Really listen to people when they say just stick to one resource and branch off from there as needed. Continuing on that note, I was simultaneously following two guides at once and eventually had the server built and the templates generated. And in addition, with switching between [Git references](https://githowto.com/staging_changes) and such, I managed to learn more Git in an hour than I did in a week module in last semester's Java programming class. Repetition, baby.
 
-Then
+More on this later.
