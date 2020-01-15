@@ -1,0 +1,30 @@
+
+# Site settings
+title: "Pho Hack's Sake"
+description: A noodly ride on my journey into software development, info security, linux systems, and pwning
+baseurl: /noodulz.github.io
+url: noodulz.github.io
+
+# Social Media and Contact Info
+twitter_username: nooduulz
+github_username:  noodulz
+email: jocelyndzuong@ufl.edu 
+
+# Build settings
+timezone: America/New_York
+markdown: kramdown
+remote_theme: mattvh/solar-theme-jekyll
+plugins:
+  - jekyll-feed
+
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
