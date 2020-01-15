@@ -4,8 +4,7 @@ name: "Pho Hack's Sake 🍜"
 title: null
 description: A noodly ride on my journey into software development, info security, linux systems, and pwning
 url: "https://noodulz.me"
-base-url: /Noodulz.me
-relative_url: "noodulz.me"
+relative_url: /Noodulz.me
 
 # Social Media and Contact Info
 twitter_username: nooduulz
