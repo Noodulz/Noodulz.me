@@ -14,8 +14,8 @@ title: About Me
 
 **Education**
 ---------
-August 2019 - May 2023 (Expected):
-University of Florida
+August 2019 - May 2023 (Expected):</br>
+University of Florida</br>
 **_BSc, Computer Science_**  with a **_Minor in Japanese and Mathematics_**
 
 **Experience**
