@@ -46,7 +46,7 @@ Spoken Languages:
 **Other Things About Me:**
 ----------------------
 * I play as a sub in a competitive Overwatch team at UF
-* I like the arts (drawing, piano, dancing in particular)
+* I like immersing in the arts (drawing, piano, and dancing in particular)
 * I enjoy delving into books and reading
 * I am currently interested in linux systems development and am  now in the works of developing a custom system on top of Debian as a semester-long project at InfoTech in Gainesville
 * I will be giving a talk on said project and its technologies and workings soon...
