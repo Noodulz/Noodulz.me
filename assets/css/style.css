@@ -129,7 +129,7 @@ h3 {
 #footer {
 	width: 620px;
 	margin: 55px auto 30px auto;
-	padding-top: 10px;
+	padding-top: 5px;
 	font-size: 0.85em;
 	border-top: 1px solid #073642;
 }
@@ -164,7 +164,7 @@ h3 {
 /*** Posts ***/
 article {
 	margin-bottom: 40px;
-	border-bottom:1px dotted #dce0e1;
+	border-bottom:1px solid #dce0e1;
 	
 }
 
