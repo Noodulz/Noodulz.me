@@ -125,7 +125,7 @@ blah blah blah put your content and formatting here
 
 And we're done! I think? Let me know or contact me if I'm missing anything or if a step went wrong. I'm open to criticisms left and right.
 
-![happysolar.gif](/uploads/happysolar.gif)
+![happysolar-2285cd.gif](/uploads/happysolar-2285cd.gif)
 
 I'd like to thank these sources for being truly resourceful and wholesomely time consuming in putting this site together: 
 * [Smashing Magazine's Jekyll and Github Pages Blog Guide](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
