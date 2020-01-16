@@ -1,6 +1,3 @@
-**Pho Hack's Sake**
-======================
-<br/>
 
 ![title](https://github.com/Noodulz/Noodulz.me/blob/master/images/D8ECC1EB-9BD5-44BA-9FAD-9F9F9241F11B.png)
 
