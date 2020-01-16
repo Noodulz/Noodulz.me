@@ -6,10 +6,10 @@ title: About Me
 ==============
 <br/>
 **Contact and Social Media**
-* _(Github: github.com/noodulz)[github.com/noodulz]_
-* _Email: jocelyndzuong@ufl.edu_
-* _LinkedIn: linkedin.com/in/jocelyndzuong_
-* _Twitter: @nooduulz_
+* _[Github: github.com/noodulz](github.com/noodulz)_
+* _[Email: jocelyndzuong@ufl.edu](mailto:jocelyndzuong@ufl.edu)_
+* _[LinkedIn: linkedin.com/in/jocelyndzuong]_
+* _[Twitter: @nooduulz](twitter.com/nooduulz)_
 
 **Education**
 ---------
