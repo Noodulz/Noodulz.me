@@ -18,7 +18,7 @@ August 2019 - May 2023 (Expected):<br/>  University of Florida<br/>  **_BSc, Com
 
 **Experience**
 ----------
-Engineering IT Tech Support                             Aug. 2019 - Jan. 2020
+Engineering IT Tech Support <br/>Aug. 2019 - Jan. 2020<br/>
 * Diagnosed various computer problems ranging from Linux systems, Windows OS, and Mac OS for faculty in UF's Mechanical and Aerospace Engineering department
 * Worked in Windows Active Directory to manage and administrate over 100 faculty members' access and manage software and key access
 * Built and repaired over 50 machines and desktops for students and faculty
