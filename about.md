@@ -3,7 +3,7 @@ title: About Me
 ---
 
 **Jocelyn Dzuong**
-==============</br>
+==============
 
 **Contact and Social Media**
 
