@@ -18,7 +18,7 @@ Hopefully whoever is reading this will never have to slave to the 15 hour-long a
 
 First things first, you'll want to download [a Git BASH client](https://git-scm.com/downloads) or [Github for Desktop](https://desktop.github.com), whatever you're comfortable with. 
 
-![gitgithub-6d46b6.jpg](/uploads/gitgithub-6d46b6.jpg)
+![codercat-34fa8c.png](/uploads/codercat-34fa8c.png)
 
 Be sure you also have a Github pages initialized in your Github with the repository's title formatted as yourgithubusername.github.io. But don't initialize Github Pages just yet (with its markdown pages and other tricks and such)! Leave it as a repo with just a README.md and license for now (if necessary). That way there won't be any overwriting or clutter present when we initialize Jekyll to build the site's skeleton for us. 
 
