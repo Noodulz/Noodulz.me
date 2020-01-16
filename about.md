@@ -37,6 +37,7 @@ Programming Languages and Skills:
 * Javascript (Beginner)
 * BASH Scripting (Intermediate)
 * Windows Powershell (Beginner)
+
 Spoken Languages:
 * Vietnamese (Native)
 * English (Fluent)
