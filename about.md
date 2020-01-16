@@ -5,15 +5,16 @@ title: About Me
 **Jocelyn Dzuong**
 ==============
 **Contact and Social Media**
-_Github: github.com/noodulz_
-_Email: jocelyndzuong@ufl.edu_
-_LinkedIn: linkedin.com/in/jocelyndzuong_
-_Twitter: @nooduulz_
+* _Github: github.com/noodulz_
+* _Email: jocelyndzuong@ufl.edu_
+* _LinkedIn: linkedin.com/in/jocelyndzuong_
+* _Twitter: @nooduulz_
 
 **Education**
 ---------
 August 2019 - May 2023 (Expected):
-   **_BSc, Computer Science_**; University of Florida
+   **_BSc, Computer Science_** University of Florida
+
    **_Minor in Japanese and Mathematics_**
 
 **Experience**
