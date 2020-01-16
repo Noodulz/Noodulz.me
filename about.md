@@ -2,22 +2,22 @@
 title: About Me
 ---
 
-#**Jocelyn Dzuong**
+**Jocelyn Dzuong**
 ==============
 
 ---------------------                            ---------------------
-Gainesville, FL 32612                            jocelyndzuong@ufl.edu
+Gainesville, FL 32612&ensp;(28 x &nbsp;)                            jocelyndzuong@ufl.edu
 US                                               LinkedIn:jocelyndzuong
 (239)-687-6177                                   Github: Noodulz
 ---------------------                            ---------------------
 
-#**Education**
+**Education**
 ---------
 August 2019 - May 2023 (Expected):
    **_BSc, Computer Science_**; University of Florida
    **_Minor in Japanese and Mathematics_**
 
-#**Experience**
+**Experience**
 ----------
 Engineering IT Support Tech                      Aug. 2019 - Jan. 2020
 * Diagnosed various computer problems ranging from Linux systems, Windows OS, and Mac OS for faculty in UF's Mechanical and Aerospace Engineering department
@@ -29,8 +29,8 @@ LLRISE Engineering Outreach Student
 * Worked in MATLAB to calculate trajectories of theoretical physics problems in radar technology 
 * Built a prototype signal radar in a team that picked up raw data of people's and objects' movements as they passed by using MATLAB to record
 
-#**Skills**
------------------------
+**Skills**
+---------------
 Programming Languages and Skills:
 * Java (Intermediate)
 * Python (Intermediate)
@@ -42,7 +42,7 @@ Spoken Languages:
 * English (Fluent)
 * Japanese (Beginner)
 
-#**Other Things About Me:**
+**Other Things About Me:**
 ----------------------
 * I play as a sub in a competitive Overwatch team at UF
 * I am currently interested in linux systems development and am  now in the works of developing a custom system on top of Debian as a semester-long project InfoTech in Gainesville
