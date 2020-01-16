@@ -22,7 +22,7 @@ First things first, you'll want to download [a Git BASH client](https://git-scm.
 
 Be sure you also have a Github pages initialized in your Github with the repository's title formatted as yourgithubusername.github.io. But don't initialize Github Pages just yet (with its markdown pages and other tricks and such)! Leave it as a repo with just a README.md and license for now (if necessary). That way there won't be any overwriting or clutter present when we initialize Jekyll to build the site's skeleton for us. 
 
-Then, to save a lot of time, install [the Ruby DevKit Environment](https://rubyinstaller.org/downloads/) to manage and run functions with "Gems" and be sure it is added onto your environment variables so you can use the functions globally on the command line and git. 
+Then, to save a lot of time, install [the Ruby DevKit Environment](https://rubyinstaller.org/downloads/) to manage and run functions with "Gems". Stick to the default settings during installation, run `ridk` at the last step of the installation wizard, download everything from 1 to 3 (includng the dev environment should take almost 1GB), and exit out. Make sure that the installation adds the PATH environment variables to run Ruby if you're on Windows. 
 
 As soon as those are done, you'll want log onto git, login with your credentials with `git config` (link to git commands down below for reference), and `git clone` your github.io repository into whatever folder or workspace you prefer working on on your desktop. 
 
@@ -135,3 +135,5 @@ I'd like to thank these sources for being truly resourceful and wholesomely time
 * [Jekyll Documentation](https://jekyllrb.com/docs/)
 
 Good luck and have fun! Hope this saved you a chunk of time, if not, I'll be sure to improve in my clarity in the next post!
+
+_Update: As per request, I've elaborated a little further on how to set up the Ruby DevKit Environment to run gem functions during build_
