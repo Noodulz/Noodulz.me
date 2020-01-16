@@ -28,6 +28,8 @@ As soon as those are done, you'll want log onto git, login with your credentials
 
 Now, using the Ruby dev environment we installed earlier, you're going to install the bundler package with `gem install bundler` and then `bundler install` after bundler is done installing. The bundler package is what's going to be building your website on a local server and committing all the changes to your blog live. Sounds scary, but neat!
 
+![mmm.gif](/uploads/mmm.gif)
+
 For installing necessary functions, you're going to have to run `gem install jekyll`, obviously the most important package we'll be using to build this baby. 
 
 Finally, you can initialize your Jekyll blog by running `jekyll new .` in the remote repo that you cloned earlier, and there should now be the following files and directories which you can see by running the `ls` command (if you don't know how to already):
