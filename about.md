@@ -4,12 +4,11 @@ title: About Me
 
 **Jocelyn Dzuong**
 ==============
-
----------------------                            ---------------------
-Gainesville, FL 32612&ensp;(28 x &nbsp;)                            jocelyndzuong@ufl.edu
-US                                               LinkedIn:jocelyndzuong
-(239)-687-6177                                   Github: Noodulz
----------------------                            ---------------------
+**Contact and Social Media**
+_Github: github.com/noodulz_
+_Email: jocelyndzuong@ufl.edu_
+_LinkedIn: linkedin.com/in/jocelyndzuong_
+_Twitter: @nooduulz_
 
 **Education**
 ---------
