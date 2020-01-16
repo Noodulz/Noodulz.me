@@ -35,6 +35,7 @@ Programming Languages and Skills:
 * Java (Intermediate)
 * Python (Intermediate)
 * Javascript (Beginner)
+* MATLAB (Beginner)
 * BASH Scripting (Intermediate)
 * Windows Powershell (Beginner)
 * Git
