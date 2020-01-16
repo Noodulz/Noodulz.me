@@ -26,8 +26,8 @@ Engineering IT Tech Support <br/>Aug. 2019 - Jan. 2020<br/>
 LLRISE Engineering Outreach Student<br/>July 2019<br/>
 * 2 week immersive introductory physics program at MIT (all expenses paid)
 * Worked in MATLAB to calculate trajectories of theoretical physics problems in radar technology 
-* Built a prototype signal radar in a team that picked up raw data of people's and objects' movements as they passed by using MATLAB to record
-* Was a speaker at the closing ceremony of the program where my team and I gave a talk on radar basics and history to an audience of scientists and engineers at Lincoln Laboratory 
+* Built a prototype signal radar in my team that picked up raw data of people's and objects' movements as they passed by using MATLAB to record
+* Gave a talk on radar basics and history with my team to an audience of scientists and engineers at Lincoln Laboratory 
 
 **Skills**
 ---------------
