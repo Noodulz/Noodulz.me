@@ -12,9 +12,6 @@ tags:
 layout: post
 ---
 
-![1506092874287-7b829b.png](/uploads/1506092874287-7b829b.png)
-*Me at 5 am finishing this up*
-
 Let me start off by saying that for those who are still learning web development, programming, or still feel like a fresh young new baby when it comes to the world of CS and web dev: It's okay to have 20 tabs open full of command cheatsheets and tutorials because you're often forgetful. It's okay to have those 20+ tabs take up the majority of your RAM and heat up whatever surface you're on. Don't listen to those pish posh people saying those bunches of open tabs out in the wild give them anxiety (I love you Insom, whatever your name is in real life). We are all still learning, and prone to mistakes and forgetfulness, so take pride in that, y'all. 
 
 Hopefully whoever is reading this will never have to slave to the 15 hour-long addiction that is discovering how to put together a static website using Jekyll and Github pages (and nearly fail their Japanese quiz from neglecting to study). 
