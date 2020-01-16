@@ -1,26 +1,32 @@
-
-# Site settings
-name: "Pho Hack's Sake 🍜"
-title: null
-description: A noodly ride on my journey into software development, info security, linux systems, and pwning. 行きましょう！
-url: "http://noodulz.me"
-base-url: "/"
-relative_url: /Noodulz.me
-
-# Social Media and Contact Info
-twitter_username: nooduulz
-github_username:  noodulz
-email: jocelyndzuong@ufl.edu 
-
-# Build settings
+---
+title: Noodulz.Me
 timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+name: "Pho Hack's Sake \U0001F35C"
+description: A noodly ride on my journey into software development, info security,
+  linux systems, and pwning. 行きましょう！
+url: http://noodulz.me
+base-url: "/"
+relative_url: "/Noodulz.me"
+twitter_username: nooduulz
+github_username: noodulz
+email: jocelyndzuong@ufl.edu
 markdown: kramdown
 remote_theme: mattvh/solar-theme-jekyll
 plugins:
-  - jekyll-feed
-  - jemoji
-gems: [jekyll-paginate]
-plugins: [jekyll-paginate]
-permalink: /:year/:month/:day/:title/
+- jekyll-paginate
+gems:
+- jekyll-paginate
+permalink: "/:year/:month/:day/:title/"
 paginate: 10
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+exclude:
+- README.md
+- Gemfile.lock
+- Gemfile
+- Rakefile
