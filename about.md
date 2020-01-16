@@ -24,7 +24,8 @@ Engineering IT Tech Support <br/>Aug. 2019 - Jan. 2020<br/>
 * Worked in Windows Active Directory to manage and administrate over 100 faculty members' access and manage software and key access
 * Built and repaired over 50 machines and desktops for students and faculty
 * Provided remote desktop support in Windows and Ubuntu via Powershell and BASH
-LLRISE Engineering Outreach Student
+
+LLRISE Engineering Outreach Student<br/>July 2019<br/>
 * 2 week immersive introductory physics program at MIT (all expenses paid)
 * Worked in MATLAB to calculate trajectories of theoretical physics problems in radar technology 
 * Built a prototype signal radar in a team that picked up raw data of people's and objects' movements as they passed by using MATLAB to record
