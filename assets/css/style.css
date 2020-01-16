@@ -164,6 +164,8 @@ h3 {
 /*** Posts ***/
 article {
 	margin-bottom: 40px;
+	border-bottom:1px dotted #dce0e1;
+	
 }
 
 article h1 {
