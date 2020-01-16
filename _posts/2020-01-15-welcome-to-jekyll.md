@@ -74,7 +74,8 @@ exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 ```
 
 Also, if your build didn't come with a `404.html` file to display when the user goes to a non-existent page on your website, you can either build that up in `.md` or `.html`. I have it in `.html` for reference as:
-```---
+```
+---
 layout: default
 permalink: /404.html
 ---
