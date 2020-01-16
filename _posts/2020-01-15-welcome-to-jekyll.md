@@ -45,7 +45,8 @@ Try writing something in `index.html`, which is the layout and essentially homep
 
 You will also want to configure your `_config.yml` file next since that will be the meat of how your blog is structured in Jekyll. For customizability's sake, I'll let you do the research on what plugins you want for your config file. But for reference, I will list a template of my `_config.yml` file and what I put: 
 
-```# Site settings
+```
+# Site settings
 name: [Name of your website here]
 title: null
 description: [Something something]
@@ -69,7 +70,8 @@ gems: [jekyll-paginate]
 plugins: [jekyll-paginate]
 permalink: /:year/:month/:day/:title/
 paginate: 10
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']```
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+```
 
 Also, if your build didn't come with a `404.html` file to display when the user goes to a non-existent page on your website, you can either build that up in `.md` or `.html`. I have it in `.html` for reference as:
 ```---
