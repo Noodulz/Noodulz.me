@@ -20,7 +20,7 @@ Hopefully whoever is reading this will never have to slave to the 15 hour-long a
 
 First things first, you'll want to download [a Git BASH client](https://git-scm.com/downloads) or [Github for Desktop](https://desktop.github.com), whatever you're comfortable with. 
 
-![gitgithub.jpg](/uploads/gitgithub.jpg)
+![gitgithub-6d46b6.jpg](/uploads/gitgithub-6d46b6.jpg)
 
 Be sure you also have a Github pages initialized in your Github with the repository's title formatted as yourgithubusername.github.io. But don't initialize Github Pages just yet (with its markdown pages and other tricks and such)! Leave it as a repo with just a README.md and license for now (if necessary). That way there won't be any overwriting or clutter present when we initialize Jekyll to build the site's skeleton for us. 
 
@@ -44,8 +44,8 @@ Finally, you can initialize your Jekyll blog by running `jekyll new .` in the re
 Try writing something in `index.html`, which is the layout and essentially homepage of your blog. After that, push and commit your changes with `git add .`, `git push origin master`, and `git commit -m "your message here"` to publish to your repo. 
 
 You will also want to configure your `_config.yml` file next since that will be the meat of how your blog is structured in Jekyll. For customizability's sake, I'll let you do the research on what plugins you want for your config file. But for reference, I will list a template of my `_config.yml` file and what I put: 
-`
-# Site settings
+
+```# Site settings
 name: [Name of your website here]
 title: null
 description: [Something something]
@@ -69,11 +69,10 @@ gems: [jekyll-paginate]
 plugins: [jekyll-paginate]
 permalink: /:year/:month/:day/:title/
 paginate: 10
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
-`
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']```
 
 Also, if your build didn't come with a `404.html` file to display when the user goes to a non-existent page on your website, you can either build that up in `.md` or `.html`. I have it in `.html` for reference as:
-`---
+```---
 layout: default
 permalink: /404.html
 ---
@@ -99,7 +98,7 @@ permalink: /404.html
     <p><strong>Page not found</strong></p>
     <p>The requested page could not be found. Womp Womp Womp...</p>
 </div>
-`
+```
 You can use this as reference in building one in `.html` if you don't have it already.
 
 Finally, you can stage the files (`git add .`), push, and commit the changes to your repo! Be sure to do this before doing the next step. We're almost done!
@@ -111,7 +110,7 @@ Now the drawback of this is that git and generators like jekyll take quite some 
 From here on out, you can implement a [custom Jekyll theme](http://jekyllthemes.org) you prefer (which is what I did due to its ease). Be sure to replace any files in your repo as needed with the theme files and directories to fully implement the theme! 
 
 To start adding additional pages, you can add a `.md` file with the page name in the home directory of the repo. Then edit the default.html or whatever layout file for your chosen theme and add an additional list at where the other pages are in `<li></li>` brackets or something like that, and link it to the `.md` file you made (i.e. yourname.github.io/something.md). Here's an outline of what a `.md` page should include before putting any content:
-`
+```
 ---
 YAML front matter
 layout: default
@@ -119,7 +118,7 @@ title: About
 permalink: /about
 ---
 blah blah blah put your content and formatting here
-`
+```
 
 And we're done! I think? Let me know or contact me if I'm missing anything or if a step went wrong. I'm open to criticisms left and right.
  
