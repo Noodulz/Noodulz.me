@@ -132,4 +132,4 @@ I'd like to thank these sources for being truly resourceful and wholesomely time
 * [GitLab's Start Using Git](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
 * [Jekyll Documentation](https://jekyllrb.com/docs/)
 
-Good luck and have fun!!
+Good luck and have fun! Hope this saved you a chunk of time, if not, I'll be sure to improve in my clarity in the next post!
