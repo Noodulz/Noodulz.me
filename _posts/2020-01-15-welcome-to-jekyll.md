@@ -16,7 +16,7 @@ Let me start off by saying that for those who are still learning web development
 
 Hopefully whoever is reading this will never have to slave to the 15 hour-long addiction that is discovering how to put together a static website using Jekyll and Github pages (and nearly fail their Japanese quiz from neglecting to study). 
 
-First things first, you'll want to download [a Git BASH client](https://git-scm.com/downloads) or [Github for Desktop](https://desktop.github.com), whatever you're comfortable with. 
+First things first, you'll want to download [a Git BASH client](https://git-scm.com/downloads) to use, because it's the hard way, or no way in this (the irony...). 
 
 ![codercat-34fa8c.png](/uploads/codercat-34fa8c.png)
 
@@ -124,7 +124,9 @@ blah blah blah put your content and formatting here
 ```
 
 And we're done! I think? Let me know or contact me if I'm missing anything or if a step went wrong. I'm open to criticisms left and right.
- 
+
+![happysolar.gif](/uploads/happysolar.gif)
+
 I'd like to thank these sources for being truly resourceful and wholesomely time consuming in putting this site together: 
 * [Smashing Magazine's Jekyll and Github Pages Blog Guide](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
 * [Michelle Fullwood's Guide to Setting up a Jekyll Blog](https://michelleful.github.io/code-blog//2014/02/28/setting-up-a-jekyll-blog-on-github-pages/)
