@@ -57,14 +57,14 @@ sup { vertical-align: super; font-size: 0.85em; }
 sub { vertical-align: sub; font-size: 0.85em; }
 
 code {
-    font: 1.25em Monaco, Courier, Monospace;
+    font: 1.13em Monaco, Courier, Monospace;
 }
 
 blockquote {
     margin: 22px 22px;
     padding: 0 20px;
     border-left: 2px solid #000000;
-    font-size: 1.2em;
+    font-size: 1.13em;
     font-style: italic;
     line-height: 1.5em;
 }
