@@ -4,9 +4,9 @@ title: About Me
 
 **Jocelyn Dzuong**
 ==============
-<br/>
-
+</br>
 **Contact and Social Media**
+------------------------
 
 * _Github: github.com/noodulz_
 * _Email: jocelyndzuong@ufl.edu_
