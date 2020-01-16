@@ -109,13 +109,13 @@ h3 {
 
 /*** Structure ***/
 #page {
-	width: 500px;
+	width: 650px;
 	margin: 0 auto;
 	position: relative;
 }
 
 #header {
-	width: 500px;
+	width: 650px;
 	margin: 40px auto 50px auto;
 }
 #header h1 {
@@ -127,22 +127,22 @@ h3 {
 }
 
 #footer {
-	width: 500px;
-	margin: 50px auto 20px auto;
+	width: 650px;
+	margin: 60px auto 40px auto;
 	padding-top: 10px;
 	font-size: 0.85em;
 	border-top: 1px solid #073642;
 }
 
 #content {
-	width: 500px;
+	width: 650px;
 	margin: 0 auto;
 }
 
 #sidebar {
 	position: absolute;
 	text-align: right;
-	width: 160px;
+	width: 180px;
 	top: 0;
 	left: -240px;
 }
