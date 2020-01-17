@@ -169,4 +169,4 @@ I'd like to thank these sources for being truly resourceful and wholesomely time
 
 You can refer to the documentation should there be any minor build errors. Good luck and have fun! Hope this saved you a chunk of time as I tried to make this as concise and simplistically short. If not, I'll be sure to improve in my clarity in the next post!
 
-_Update: As per request, I've elaborated a little further on how to set up the Ruby DevKit Environment to run gem functions during build. Also fixed formatting in the code examples and demonstration._
+_Update: As per request, I've elaborated a little further on how to set up the Ruby DevKit Environment to run gem functions during build. Also fixed formatting in the code examples and demonstration. Elaborated on Gemfiles which is also important._
