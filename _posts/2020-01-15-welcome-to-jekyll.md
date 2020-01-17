@@ -41,7 +41,7 @@ Finally, you can initialize your Jekyll blog by running `jekyll new .` in the re
 * `_site/`
 * `.gitignore`
 
-Try writing something in `index.html`, which is the layout and essentially homepage of your blog. After that, push and commit your changes with `git add .`, `git push origin master`, and `git commit -m "your message here"` to publish to your repo. 
+Try writing something in `index.html`, which is the layout and essentially homepage of your blog. After that, push and commit your changes with `git add .` ,  `git push origin master` , and `git commit -m "your message here"` to publish to your repo. 
 
 You will also want to configure your `_config.yml` file next since that will be the meat of how your blog is structured in Jekyll. For customizability's sake, I'll let you do the research on what plugins you want for your config file. But for reference, I will list a template of my `_config.yml` file and what I put (do not include brackets as indicated except for the exclude line): 
 
