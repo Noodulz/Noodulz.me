@@ -43,7 +43,7 @@ Finally, you can initialize your Jekyll blog by running `jekyll new .` in the re
 
 Try writing something in `index.html`, which is the layout and essentially homepage of your blog. After that, push and commit your changes with `git add .`, `git push origin master`, and `git commit -m "your message here"` to publish to your repo. 
 
-You will also want to configure your `_config.yml` file next since that will be the meat of how your blog is structured in Jekyll. For customizability's sake, I'll let you do the research on what plugins you want for your config file. But for reference, I will list a template of my `_config.yml` file and what I put: 
+You will also want to configure your `_config.yml` file next since that will be the meat of how your blog is structured in Jekyll. For customizability's sake, I'll let you do the research on what plugins you want for your config file. But for reference, I will list a template of my `_config.yml` file and what I put (do not include brackets as indicated except for the exclude line): 
 
 ```
 # Site settings
@@ -51,7 +51,7 @@ name: [Name of your website here]
 title: null
 description: [Something something]
 url: [Not necessary unless you have a custom domain like me]
-base-url: "/name.github.io"
+base-url: [/name.github.io]
 relative_url: [same as your base-url]
 
 # Social Media and Contact Info
@@ -120,7 +120,7 @@ layout: default
 title: About
 permalink: /about
 ---
-blah blah blah put your content and formatting here
+blah blah blah your content here
 ```
 
 And we're done! I think? Let me know or contact me if I'm missing anything or if a step went wrong. I'm open to criticisms left and right.
@@ -136,4 +136,4 @@ I'd like to thank these sources for being truly resourceful and wholesomely time
 
 Good luck and have fun! Hope this saved you a chunk of time, if not, I'll be sure to improve in my clarity in the next post!
 
-_Update: As per request, I've elaborated a little further on how to set up the Ruby DevKit Environment to run gem functions during build_
+_Update: As per request, I've elaborated a little further on how to set up the Ruby DevKit Environment to run gem functions during build. Also fixed formatting in the code examples and demonstration._
