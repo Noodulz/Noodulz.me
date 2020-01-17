@@ -1,5 +1,5 @@
 ---
-title: Why I'm Screwing Myself Over with a Linux OS Dev Project and How you Can Too!
+title: Why I'm Screwing Myself Over with a Linux OS Dev Project and How You Can Too!
   (part 1)
 date: 2020-01-16 13:39:00 -05:00
 ---
