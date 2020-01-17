@@ -32,7 +32,7 @@ Now, using the Ruby dev environment we installed earlier, you're going to instal
 
 For installing necessary functions, you're going to have to run `gem install jekyll`, obviously the most important package we'll be using to build this baby. 
 
-Finally, you can initialize your Jekyll blog by running `jekyll new .` in the remote repo that you cloned earlier, and there should now be the following files and directories which you can see by running the `ls` command (if you don't know how to already):
+Finally, you can initialize your Jekyll blog by running `jekyll new .` in the remote repo that you cloned earlier, and there should now be at least the following files and directories which you can see by running the `ls` command (if you don't know how to already):
 
 * `index.html`
 * `_config.yml`
@@ -73,6 +73,39 @@ paginate: 10
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 ```
 
+There should also be a Gemfile that allows for the Gem plugins to be enabled on your website. It should look something like this:
+```
+source "https://rubygems.org"
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
+# This will help ensure the proper Jekyll version is running.
+# Happy Jekylling!
+# gem "jekyll", "~> 4.0.0"
+gem "jekyll-paginate"
+gem "jemoji"
+# This is the default theme for new Jekyll sites. You may change this to anything you like.
+# gem "minima", "~> 2.5"
+# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.12"
+end
+
+# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+# and associated library.
+install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
+  gem "tzinfo", "~> 1.2"
+  gem "tzinfo-data"
+end
+
+# Performance-booster for watching directories on Windows
+gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+```
 Also, if your build didn't come with a `404.html` file to display when the user goes to a non-existent page on your website, you can either build that up in `.md` or `.html`. I have it in `.html` for reference as:
 ```
 ---
