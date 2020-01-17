@@ -134,6 +134,6 @@ I'd like to thank these sources for being truly resourceful and wholesomely time
 * [GitLab's Start Using Git](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
 * [Jekyll Documentation](https://jekyllrb.com/docs/)
 
-Good luck and have fun! Hope this saved you a chunk of time, if not, I'll be sure to improve in my clarity in the next post!
+You can refer to the documentation should there be any minor build errors. Good luck and have fun! Hope this saved you a chunk of time as I tried to make this as concise and simplistically short. If not, I'll be sure to improve in my clarity in the next post!
 
 _Update: As per request, I've elaborated a little further on how to set up the Ruby DevKit Environment to run gem functions during build. Also fixed formatting in the code examples and demonstration._
