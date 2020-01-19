@@ -2,5 +2,8 @@
 title: Projects
 ---
 
-I'll just state here that I'm planning to work on a Linux systems project built on top of Debian, and that I'll keep this page updated with more relevant projects and contributions I've contributed to. Otherwise, check out my [Github](github.com/noodulz) for the rest of my gists and little stuff I built so far.<br/>
+## Spicy Asian Tiger Mom
+* A very spicy bot that will send you very berating (and wholesome!) quotes of encouragement to get you to study anytime you mention the terms "study" or "studying" in your message in Discord.
+![ezdemoamb.gif](/uploads/ezdemoamb.gif)<br/>
+[Link to source code](https://github.com/Noodulz/spicy-asian-mom-discordbot)
 ![PepeHands.png](/uploads/PepeHands.png)
