@@ -17,7 +17,7 @@ Then through a lot of my friends' recommendation, I started [PicoCTF](https://pi
 
 ## Techniques
 So! I'll get to the nitty gritty and explain the common techniques I've had to use in both those games:
-* Check the source code by right clicking and then hitting 'Page Source' or 'Inspect Element'. Always do this first. Always. And read the source code closely. They will tell you everything you need to know to beat a level (well, more like offer weird formatted code for you to look into to exploit). 
+* Check the source code by right clicking and then hitting 'Page Source' or 'Inspect Element'. Always do this first. Always. And read the source code closely. They will tell you everything you need to know to beat a level (well, more like offer weird formatted code for you to look into to exploit). And the beginner levels often have you searching the comments for the password, formatted as `<!--flag-->`
 * There will be a point where you will have to learn about Robot files that block certain access to directories in a website. Should be formatted as www.this-website.com/robots.txt. 
 * To create a basic POST form in HTML (think of your usual username and login page to send to a website as a request to login as user), open up a notepad or IDE and put this in: 
 `<html>
