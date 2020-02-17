@@ -48,7 +48,7 @@ So! I'll get to the nitty gritty and explain the common techniques I've had to u
 
 * 24-bit files/images are a thing that can be reversed or converted back into a readable image.
 
-* You will also learn a lot about SQL Injections, which are super important. They are commands that you enter into a search or login box in a website that bypasses the check and gets you vulnerable user data (and a flag!). A common SQL command I've found that seems to be used a lot is `SELECT * FROM Users WHERE UserId = 105 OR 1=1;`. [More on this here](https://www.w3schools.com/sql/sql_injection.asp).
+* You will also learn a lot about SQL Injections, which are super important. They are commands that you enter into a search or login box in a website that bypasses the check and gets you vulnerable user data (and a flag!). A common SQL command I've found that seems to be used a lot is `SELECT * FROM Users WHERE Username = 105 OR 1=1;`. [More on this here](https://www.w3schools.com/sql/sql_injection.asp).
 
 * Google. Google and inspecting the page source are your two best friends in this game.
 
