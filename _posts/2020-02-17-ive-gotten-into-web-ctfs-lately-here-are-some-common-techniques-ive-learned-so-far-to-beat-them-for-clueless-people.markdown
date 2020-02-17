@@ -12,7 +12,7 @@ So, the security team that I am active in here on campus was in need of someone 
 
 ## A Few Good CTF Websites to Start Off In
 I first found [Defend The Web!](https://defendtheweb.net) which is a terrific terrific (and I cannot stress enough, TERRIFIC) site that offers great web challenges for beginners as well as a forum to discuss and offer hints (during a challenge) and solutions (after you solve a challenge). They are fun if not brain-stumping, and get you to do a lot of Googling (which is okay by the way! You aren't expected to know EVERYTHING at first) to solve the challs. So far I'm almost 50% through, and can't wait to go through more.
-
+![pico2.png](/uploads/pico2.png)
 Then through a lot of my friends' recommendation, I started [PicoCTF](https://picoctf.com) which is a CTF game aimed at high schoolers and beginners. It offers a retro 8-bit like Unity game with a storyline to interact with the challenges as you solve them, which adds an extra layer of fun to approaching them in my opinion. I sought out the web exploitation challenges in particular, which start off really easy, much like Defend The Web, and then get progressively harder with having to Google a lot. However, the best hints are in the title of the challs themselves often, when it comes to Pico. 
 
 ## Techniques
