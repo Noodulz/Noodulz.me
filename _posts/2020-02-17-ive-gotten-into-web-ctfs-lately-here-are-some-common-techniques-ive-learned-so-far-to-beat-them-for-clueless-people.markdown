@@ -30,11 +30,11 @@ So! I'll get to the nitty gritty and explain the common techniques I've had to u
 
   `<html>
   <!--This makes a password box and a submit button to send to a website-->
-  <form action="link to website here" method="post">
-  <label for="name">Password:</label><br/>
-  <input type="text" name="password" /><br><br>
-  <input type="submit" value="Submit">
-  </form>
+     <form action="link to website here" method="post">
+     <label for="name">Password:</label><br/>
+     <input type="text" name="password" /><br><br>
+     <input type="submit" value="Submit">
+     </form>
   </html>`
 
 * For converting hashes and Base64s and Caesar Ciphers or anything like this, use this [godsend of a code cracking tool online](https://cryptii.com). Saves a lot of time. Caesar Ciphers are the ones often taught first so I recommend you get familiar with that early.
