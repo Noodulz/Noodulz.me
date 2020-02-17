@@ -30,7 +30,7 @@ So! I'll get to the nitty gritty and explain the common techniques I've had to u
 </html>`
 * For converting hashes and Base64s and Caesar Ciphers or anything like this, use this [godsend of a code cracking tool online](https://cryptii.com). Saves a lot of time. Caesar Ciphers are the ones often taught first so I recommend you get familiar with that early.
 * Some challs will ask you to access a website as a certain user. For that, you will need to go into 'Inspect Element', find the Network Conditions, and edit the User Agent field to mask yourself as admin or another user they ask for.
-![useragentdemo.png](/uploads/useragentdemo.png)
+![useragentdemo-e6bc0e.png](/uploads/useragentdemo-e6bc0e.png)
 * All images have text in them. You can right click on an image on your desktop, click "Open With..." or something along those lines, and have the image opened in an IDE or Notepad. Some challs will have you investigate the insides of an image for the flag, and that will be one of the things you'll have to do.
 * People's passwords on websites are often something about themselves or what they like. This makes for extremely weak passwords which you can bruteforce with. Keep that in mind.
 * 24-bit files/images are a thing that can be reversed or converted back into a readable image. 
