@@ -20,7 +20,7 @@ So! I'll get to the nitty gritty and explain the common techniques I've had to u
 * Check the source code by right clicking and then hitting 'Page Source' or 'Inspect Element'. Always do this first. Always. And read the source code closely. They will tell you everything you need to know to beat a level (well, more like offer weird formatted code for you to look into to exploit). And the beginner levels often have you searching the comments for the password, formatted as `<!--flag-->`. CTRL-F in source code is also another good thing to keep in mind.
 * There will be a point where you will have to learn about Robot files that block certain access to directories in a website. Should be formatted as www.this-website.com/robots.txt. 
 * To create a basic POST form in HTML (think of your usual username and login page to send to a website as a request to login as user), open up a notepad or IDE and put this in: 
-```
+<code>
 <html>
    <!--This makes a password box and a submit button to send to a website-->
    <form action="link to website here" method="post">
@@ -29,7 +29,7 @@ So! I'll get to the nitty gritty and explain the common techniques I've had to u
    <input type="submit" value="Submit">
    </form>
 </html>
-```
+</code>
 * For converting hashes and Base64s and Caesar Ciphers or anything like this, use this [godsend of a code cracking tool online](https://cryptii.com). Saves a lot of time. Caesar Ciphers are the ones often taught first so I recommend you get familiar with that early.
 * Some challs will ask you to access a website as a certain user. For that, you will need to go into 'Inspect Element', find the Network Conditions, and edit the User Agent field to mask yourself as admin or another user they ask for.
 ![useragentdemo-e6bc0e.png](/uploads/useragentdemo-e6bc0e.png)
