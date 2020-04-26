@@ -19,5 +19,8 @@ However, I'm also posting a quick guide on how I personally installed Arch becau
 * VirtualBox/VMWare
 * Some time to spare and a basic understanding of the Linux environment and command line 
 
+# Installation
+1. Build an Arch instance in VirtualBox, preferably with 
+
 
 
