@@ -1,0 +1,64 @@
+I"|<p>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⡿⠿⢿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠛⠉⠉⠉⠙⠻⣅⠀⠈⢧⠀⠈⠛⠉⠉⢻⣿⣿
+⣿⣿⣿⣿⣿⣿⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⣤⡶⠟⠀⠀⣈⠓⢤⣶⡶⠿⠛⠻⣿
+⣿⣿⣿⣿⣿⢣⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣀⣴⠶⠿⠿⢷⡄⠀⠀⢀⣤⣾⣿
+⣿⣿⣿⣿⣡⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣦⣤⣤⡀⠀⢷⡀⠀⠀⣻⣿⣿
+⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡈⠛⠶⠛⠃⠈⠈⢿⣿⣿
+⣿⣿⠟⠘⠀⠀⠀⠀⠀⠀⠀⠀⢀⡆⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⠀⠈⣿⣿
+⣿⠏⠀⠁⠀⠀⠀⠀⠀⠀⠀⢀⣶⡄⠀⠀⠀⠀⠀⠀⣡⣄⣿⡆⠀⠀⠀⠀⣿⣿
+⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠚⠛⠛⢛⣲⣶⣿⣷⣉⠉⢉⣥⡄⠀⠀⠀⠨⣿⣿
+⡇⢠⡆⠀⠀⢰⠀⠀⠀⠀⢸⣿⣧⣠⣿⣿⣿⣿⣿⣿⣷⣾⣿⡅⠀⠀⡄⠠⢸⣿
+⣧⠸⣇⠀⠀⠘⣤⡀⠀⠀⠘⣿⣿⣿⣿⣿⠟⠛⠻⣿⣿⣿⡿⢁⠀⠀⢰⠀⢸⣿
+⣿⣷⣽⣦⠀⠀⠙⢷⡀⠀⠀⠙⠻⠿⢿⣷⣾⣿⣶⠾⢟⣥⣾⣿⣧⠀⠂⢀⣿⣿
+⣿⣿⣿⣿⣷⣆⣠⣤⣤⣤⣀⣀⡀⠀⠒⢻⣶⣾⣿⣿⣿⣿⣿⣿⣿⢀⣀⣾⣿⣿</p>
+
+<h1 id="jocelyn-dzuong">Jocelyn Dzuong</h1>
+<p>Student, Developer, Hacker</p>
+
+<h2 id="education">Education</h2>
+<p>August 2019 - May 2023:
+University of Florida
+BSc, Computer Science
+Minor in Japanese and Mathematics</p>
+
+<h2 id="experience">Experience</h2>
+<p>UFSIT Webmaster and Developer
+Apr 2020 - Present</p>
+<ul>
+  <li>Rebuilt UFSIT’s 5 year old blog and developed a new UI from scratch</li>
+  <li>Collaborate and lead a WebOps team on developing a new web portal app for UFSIT</li>
+  <li>Diagnose and fix pull requests and issues for UFSIT’s repositories and web apps</li>
+  <li>Compete in CTFs with UFSIT team Kernel Sanders 
+<br />
+<br />
+InfoTech Spring Shadowing Developer 
+Jan 2020 - Apr 2020</li>
+  <li>Collaborated with an experienced developer to build a Linux OS in Docker</li>
+  <li>Shadowed scrum meetings</li>
+  <li>Utilized Git Workflow
+<br />
+<br />
+UF MAE Engineering IT Support
+Aug 2019 - Jan 2020</li>
+  <li>Diagnosed various computer problems ranging from Linux systems, Windows OS, and Mac OS for faculty in UF’s Mechanical and Aerospace Engineering department</li>
+  <li>Worked in Windows Active Directory to manage and administrate over 100 faculty members’ access and manage software  and key access</li>
+  <li>Provided remote desktop support in Windows and Ubuntu via Powershell and BASH</li>
+</ul>
+
+<h2 id="skills">Skills</h2>
+<ul>
+  <li>Programming Languages: Python, Java, Javascript</li>
+  <li>Technologies: BASH Scripting (beginner), Powershell (beginner), Git, HTML, CSS,</li>
+  <li>Spoken Languages: Vietnamese (fluent), English (fluent), Japanese (beginner)</li>
+</ul>
+
+<h2 id="some-other-fun-facts-about-me">Some Other Fun Facts About Me</h2>
+<ul>
+  <li>I play on a competitive Overwatch team as a sub</li>
+  <li>I enjoy reading contemporary fiction and watching arthouse films</li>
+  <li>I play a bit of piano and draw in my spare time (or rarely..)</li>
+  <li>I like noodles</li>
+  <li>I use Arch by the way (no, really, I do. You must know.)</li>
+</ul>
+
+:ET

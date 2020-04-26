@@ -1,0 +1,30 @@
+I"�<ul>
+  <li>NoodlOS</li>
+</ul>
+
+<p>Source code to be released soon. A currently developing hardened Linux OS in Docker based on reinterpretcat’s <a href="https://github.com/reinterpretcat/lfs">LFS</a> project. Ports to .iso and comes with documentation.</p>
+
+<ul>
+  <li><a href="https://github.com/Noodulz/spicy-asian-mom-discordbot">Spicy Asian Tiger Mom:</a></li>
+</ul>
+
+<p>A discord.js bot that will randomly degrade you and simultaneously encourage you to study in the style of a typical Asian tiger mom</p>
+
+<ul>
+  <li><a href="https://ufsit.club">ufsit.club</a></li>
+</ul>
+
+<p>UF Student InfoSec Team’s new and revamped static Jekyll website</p>
+
+<ul>
+  <li><a href="https://github.com/noodulz/reddle">reddle</a></li>
+</ul>
+
+<p>A Reddit web scraper written in Python using the Praw and Pandas modules. Scrapes a user’s saved posts and comments and appends them to .csv files accordingly for reference.</p>
+
+<ul>
+  <li><a href="https://github.com/noodulz/udon-know">udon-know</a></li>
+</ul>
+
+<p>A dummy Python terminal application with a minimal TUI that lets you scan for open ports of a given host, as well as obtain the IP address of the host.</p>
+:ET

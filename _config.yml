@@ -1,15 +1,21 @@
 # Example Site settings
 
 #google_analytics: UA-NNNNNNNN-N
+title: Noodulz
+url: https://noodulz.me
+base-url: "/"
+relative_url: "/noodulz.me"
 
-#header_pages:
-#  - index.md
-#  - about.md
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  - contact.md
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-#style: light # dark (default) or light
-#listen_for_clients_preferred_style: true # true or false (default)
+style: dark  # dark (default) or light
+listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
   - jekyll-seo-tag
