@@ -2,7 +2,6 @@
 title: My personal walkthrough of building Arch in a VM
 date: 2020-04-26 15:04:00 Z
 permalink: "/_posts/buildarch"
-published: false
 Field name: 
 layout: post
 ---
