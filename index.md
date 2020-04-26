@@ -1,7 +1,7 @@
 ---
-title: /root
+title: "/root"
+permalink: "/"
 layout: home
-permalink: /
 ---
 
 Dum dum dee dum dum dum dee dum dum

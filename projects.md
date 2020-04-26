@@ -1,8 +1,9 @@
 ---
-title: /projects
+title: "/projects"
+permalink: "/project"
 layout: page
-permalink: /project
 ---
+
 * NoodlOS
 
 Source code to be released soon. A currently developing hardened Linux OS in Docker based on reinterpretcat's [LFS](https://github.com/reinterpretcat/lfs) project. Ports to .iso and comes with documentation.
