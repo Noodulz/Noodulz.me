@@ -16,6 +16,7 @@ header_pages:
 - about.md
 - projects.md
 - contact.md
+- writeups.md
 style: dark
 listen_for_clients_preferred_style: true
 plugins:
