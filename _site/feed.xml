@@ -12,6 +12,7 @@
 
   <link href="/assets/css/style.css" rel="stylesheet" />
   <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+  <link rel="shortcut icon" type="image/png" href="images/noodleicon.png">
 
 </head>
 
@@ -20,8 +21,8 @@
 
 
   <header id="header">
-    <h1><a href="/"><i class="icon-sun"></i> </a></h1>
-    <p>A noodly ride on my journey into software development, info security, linux systems, and pwning</p>
+    <h1><a href="/"><i class="icon-sun"></i> <b><i>Pho Hack's Sake 🍜</i></b></a></h1>
+    <p><i>A noodly ride on my journey into software development, info security, linux systems, and pwning. 行きましょう！</i></p>
   </header>
 
 
@@ -32,12 +33,13 @@
 
     <div id="sidebar">
       <nav>
+        <img src="/images/tenorryan.gif" width="125" height="125" class="inline"/>
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="/archives">Archive</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
-          <li><a href="/feed.xml">RSS Feed</a></li>
+          <li><a href="/about">whoami</a></li>
+          <li><a href="http://twitter.com/nooduulz">Twitter</a></li>
+          <li><a href="http://github.com/noodulz/Noodulz.me">Source Code</a></li>
+          <li><a href="/projects">Projects</a></li>
         </ul>
       </nav>
     </div>
@@ -48,49 +50,324 @@
       <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pho Hack's Sake</title>
-    <description>A noodly ride on my journey into software development, info security, linux systems, and pwning</description>
-    <link>https://www.noodulz.github.io/noodulz.github.io/</link>
-    <atom:link href="https://www.noodulz.github.io/noodulz.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jan 2020 00:27:19 -0500</pubDate>
-    <lastBuildDate>Wed, 15 Jan 2020 00:27:19 -0500</lastBuildDate>
+    <title>Noodulz.Me</title>
+    <description>A noodly ride on my journey into software development, info security, linux systems, and pwning. 行きましょう！</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 26 Apr 2020 00:20:54 -0400</pubDate>
+    <lastBuildDate>Sun, 26 Apr 2020 00:20:54 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Why I'm Screwing Myself Over with a Linux OS Dev Project and How You Can Too! (part 2)</title>
+        <description>&lt;p&gt;Some of my friends have often joked or chastised me for pursuing compiling my own Linux OS with the &lt;a href=&quot;http://www.linuxfromscratch.org&quot;&gt;Linux From Scratch&lt;/a&gt; framework. “Why not use Gentoo?”, “I use Arch”, “Why?”. And when the audience at a talk I was at the other day stayed silent to a “Who wants to hear a Linux from Scratch talk huh?”, I laughed it off but felt awkward on the inside. Maybe this isn’t the right project for me to do. Maybe it may be worthless to others. To most I know who’s knee deep in the realm of cybersecurity and binary exploitation anyway, it’s the butt of the joke.&lt;/p&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;p&gt;But I am undeterred. So far though it’s been a tedious project, I’ve learned a lot more about Git, workflows, the wonders of Docker containers, and most important of all how a Linux system works and is built. I’m working right now on &lt;a href=&quot;http://www.linuxfromscratch.org/hlfs/view/development/index.html&quot;&gt;Hardened Linux from Scratch&lt;/a&gt; which teaches you how to build a secure and robust Linux system with up-to-date packages and setting up networking infrastructures and firewalls. I’m on my way to setting up the build packages and then fully building and running the Dockerfile of the entire system to finish. It’s been a rather annoying but worthwhile journey, and I can’t wait to finally see the finished product. I hope with having built an OS in a Docker container and having it &lt;a href=&quot;https://github.com/mviereck/x11docker&quot;&gt;boot to a GUI&lt;/a&gt; with the X Windows manager and everything, that my friends and peers will reconsider their blunt remarks. Or at least be wowed. But that’s not the point of doing this project.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;Also, I learned that this may not be the most usable OS in the end since to update I’d have to probably rebuild the entire system over and over each release. But perhaps there’s another way to make that more efficient. I still have a ways to go, after all.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 14 Jan 2020 20:47:30 -0500</pubDate>
-        <link>https://www.noodulz.github.io/noodulz.github.io/2020/01/14/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">https://www.noodulz.github.io/noodulz.github.io/2020/01/14/welcome-to-jekyll/</guid>
+        <pubDate>Sat, 22 Feb 2020 01:25:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/02/22/why-im-screwing-myself-over-with-a-linux-os-dev-project-and-how-you-can-too-part-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/02/22/why-im-screwing-myself-over-with-a-linux-os-dev-project-and-how-you-can-too-part-2/</guid>
         
+        
+      </item>
+    
+      <item>
+        <title>I've Gotten into Web CTFs Lately. Here are Some Common Techniques I've Learned So Far to Beat Them (For Clueless People!)</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/uploads/Nulab-Capture-the-Flag-CTF-Challenge-Blog.png&quot; alt=&quot;Nulab-Capture-the-Flag-CTF-Challenge-Blog.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-are-ctfs&quot;&gt;What are CTFs???&lt;/h1&gt;
+
+&lt;p&gt;For those of you who don’t know, a CTF, or Capture The Flag (no, not the sport) is an online hacking game where the goal is to find your way through various systems to find a ‘flag’, or password to solving a level in the game. It is often played by security professionals and enthusiasts alike to practice their skills and most importantly, learn new ones along the way as they play. The games come in a couple categories: forensics, cryptography, misc., binary exploitation (AKA pwn, which so many guys here are suckers for!), and web.&lt;/p&gt;
+
+&lt;p&gt;So, the security team that I am active in here on campus was in need of someone who can complete web CTF challenges in particular, since there was an immense lack of that (because EVERYONE wants to do pwn and binary exploits mainly. For real). And given I’ve spent way too much time on the Internet as a kid and was on and off with web challs and CTFs over the years, I figured, why not take it seriously this time? Plus, DEFCON’s Qualifiers are coming up right now, and I’d really like to contribute and compete somehow.&lt;/p&gt;
+
+&lt;h1 id=&quot;a-few-good-ctf-websites-to-start-off-in&quot;&gt;A Few Good CTF Websites to Start Off In&lt;/h1&gt;
+
+&lt;p&gt;I first found &lt;a href=&quot;https://defendtheweb.net&quot;&gt;Defend The Web!&lt;/a&gt; which is a terrific terrific (and I cannot stress enough, TERRIFIC) site that offers great web challenges for beginners as well as a forum to discuss and offer hints (during a challenge) and solutions (after you solve a challenge). They are fun if not brain-stumping, and get you to do a lot of Googling (which is okay by the way! You aren’t expected to know EVERYTHING at first) to solve the challs. So far I’m almost 50% through, and can’t wait to go through more.
+&lt;img src=&quot;/uploads/pico2.png&quot; alt=&quot;pico2.png&quot; /&gt;
+Then through a lot of my friends’ recommendation, I started &lt;a href=&quot;https://picoctf.com&quot;&gt;PicoCTF&lt;/a&gt; which is a CTF game aimed at high schoolers and beginners. It offers a retro 8-bit like Unity game with a storyline to interact with the challenges as you solve them, which adds an extra layer of fun to approaching them in my opinion. I sought out the web exploitation challenges in particular, which start off really easy, much like Defend The Web, and then get progressively harder with having to Google a lot. However, the best hints are in the title of the challs themselves often, when it comes to Pico.&lt;/p&gt;
+
+&lt;h1 id=&quot;techniques&quot;&gt;Techniques&lt;/h1&gt;
+
+&lt;p&gt;So! I’ll get into the nitty gritty and explain the common techniques I’ve had to use in both those games:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Check the source code by right clicking and then hitting ‘Page Source’ or ‘Inspect Element’. Always do this first. Always. And read the source code closely. They will tell you everything you need to know to beat a level (well, more like offer weird formatted code for you to look into to exploit). And the beginner levels often have you searching the comments for the password, formatted as &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!--flag--&amp;gt;&lt;/code&gt;. CTRL-F in source code is also another good thing to keep in mind.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There will be a point where you will have to learn about Robot files that block certain access to directories in a website. Should be formatted as www.this-website.com/robots.txt.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To create a basic POST form in HTML (think of your usual username and login page to send to a website as a request to login as user), open up a notepad or IDE and put this in:&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!--This makes a password box and a submit button to send to a website          &amp;lt;html&amp;gt;                                                                            &amp;lt;form action=&quot;link to website here&quot; method=&quot;post&quot;&amp;gt;
+   &amp;lt;label for=&quot;name&quot;&amp;gt;Password:&amp;lt;/label&amp;gt;&amp;lt;br/&amp;gt;
+   &amp;lt;input type=&quot;text&quot; name=&quot;password&quot; /&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+   &amp;lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&amp;gt;
+   &amp;lt;/form&amp;gt;
+&amp;lt;/html&amp;gt;                                                                                  --&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For converting hashes and Base64s and Caesar Ciphers or anything like this, use this &lt;a href=&quot;https://cryptii.com&quot;&gt;godsend of a code cracking tool online&lt;/a&gt;. Saves a lot of time. Caesar Ciphers are the ones often taught first so I recommend you get familiar with that early.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Some challs will ask you to access a website as a certain user. For that, you will need to go into ‘Inspect Element’, find the Network Conditions, and edit the User Agent field to mask yourself as admin or another user they ask for.
+&lt;img src=&quot;/uploads/useragentdemo-e6bc0e.png&quot; alt=&quot;useragentdemo-e6bc0e.png&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;All images have text in them. You can right click on an image on your desktop, click “Open With…” or something along those lines, and have the image opened in an IDE or Notepad. Some challs will have you investigate the insides of an image for the flag, and that will be one of the things you’ll have to do.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;People’s passwords on websites are often something about themselves or what they like. This makes for extremely weak passwords which you can bruteforce with. Keep that in mind.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;24-bit files/images are a thing that can be reversed or converted back into a readable image.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You will also learn a lot about SQL Injections, which are super important. They are commands that you enter into a search or login box in a website that bypasses the check and gets you vulnerable user data (and a flag!). A common SQL command I’ve found that seems to be used a lot is &lt;code class=&quot;highlighter-rouge&quot;&gt;SELECT * FROM Users WHERE Username = 105 OR 1=1;&lt;/code&gt;. &lt;a href=&quot;https://www.w3schools.com/sql/sql_injection.asp&quot;&gt;More on this here&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Google. Google and inspecting the page source are your two best friends in this game.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s all I’ve found so far. So many times I’ve seen beginners at the security meetings I attend here get discouraged because they know absolutely nothing about where to look or what to know beforehand in solving a web challenge. And then they stop coming or leave defeated. So many of the professionals say you don’t have to know anything, just a curiosity to learn. And they’re right. But on the other hand, you’re much less likely to give up and become more engaged if you’ve spent countless hours involved with programming and computer-related projects as a kid beforehand. Sure beginners are all welcome to learn and solve challenges, but how do you make them stick with it when they don’t know anything at all or learned the perseverance in Googling and learning? I hope this article helps those beginners get over the obstacle and learning curve of diving into Web CTFs and challenges. And with that, I’ll get back to rooting in web.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Feb 2020 14:14:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/02/17/ive-gotten-into-web-ctfs-lately-here-are-some-common-techniques-ive-learned-so-far-to-beat-them-for-clueless-people/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/02/17/ive-gotten-into-web-ctfs-lately-here-are-some-common-techniques-ive-learned-so-far-to-beat-them-for-clueless-people/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Why I'm Screwing Myself Over with a Linux OS Dev Project and How You Can Too! (part 1)</title>
+        <description>&lt;p&gt;Hello! As mentioned on here earlier, I will be starting a semester-long personal project to build a custom Linux OS from scratch, albeit on top of an existing host system (since I can’t freely build a system on top of nothing to boot on in the first place). I’m aiming to have a lightweight and working system in an &lt;code class=&quot;highlighter-rouge&quot;&gt;.iso&lt;/code&gt; file as well as the filesystem hosted in the repo for reference. I will also most likely be writing up documentation in the wiki for this project at the end of development, which should be fun since I have a knack for liking to write things extensively.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/1535722158386.png&quot; alt=&quot;1535722158386.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have put together a &lt;a href=&quot;https://www.dropbox.com/s/o2b0ccarh5vt68h/NoodlOS.docx?dl=0&quot;&gt;brief write-up&lt;/a&gt; of the specs of what I’ll be expecting myself to implement and complete in a matter of 10 weeks. Check it out, and on that note, I’ll be keeping this series posted with how my progress is and future simplified guides!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Jan 2020 13:39:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/01/16/why-im-screwing-myself-over-with-a-linux-os-dev-project-and-how-you-can-too-part-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/16/why-im-screwing-myself-over-with-a-linux-os-dev-project-and-how-you-can-too-part-1/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>I built and hosted a Jekyll website in 15 hours so you don't have to!</title>
+        <description>&lt;p&gt;Let me start off by saying that for those who are still learning web development, programming, or still feel like a fresh young new baby when it comes to the world of CS and web dev: It’s okay to have 20 tabs open full of command cheatsheets and tutorials because you’re often forgetful. It’s okay to have those 20+ tabs take up the majority of your RAM and heat up whatever surface you’re on. Don’t listen to those pish posh people saying those bunches of open tabs out in the wild give them anxiety (I love you Insom, whatever your name is in real life). We are all still learning, and prone to mistakes and forgetfulness, so take pride in that, y’all.&lt;/p&gt;
+
+&lt;p&gt;Hopefully whoever is reading this will never have to slave to the 15 hour-long addiction that is discovering how to put together a static website using Jekyll and Github pages (and nearly fail their Japanese quiz from neglecting to study).&lt;/p&gt;
+
+&lt;p&gt;First things first, you’ll want to download &lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;a Git BASH client&lt;/a&gt; to use, because it’s the hard way, or no way in this (the irony…).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/codercat-34fa8c.png&quot; alt=&quot;codercat-34fa8c.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Be sure you also have a Github pages initialized in your Github with the repository’s title formatted as yourgithubusername.github.io. But don’t initialize Github Pages just yet (with its markdown pages and other tricks and such)! Leave it as a repo with just a README.md and license for now (if necessary). That way there won’t be any overwriting or clutter present when we initialize Jekyll to build the site’s skeleton for us.&lt;/p&gt;
+
+&lt;p&gt;Then, to save a lot of time, install &lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;the Ruby DevKit Environment&lt;/a&gt; to manage and run functions with “Gems”. Stick to the default settings during installation, run &lt;code class=&quot;highlighter-rouge&quot;&gt;ridk&lt;/code&gt; at the last step of the installation wizard, download everything from 1 to 3 (includng the dev environment should take almost 1GB), and exit out. Make sure that the installation adds the PATH environment variables to run Ruby if you’re on Windows.&lt;/p&gt;
+
+&lt;p&gt;As soon as those are done, you’ll want log onto git, login with your credentials with &lt;code class=&quot;highlighter-rouge&quot;&gt;git config&lt;/code&gt; (link to git commands down below for reference), and &lt;code class=&quot;highlighter-rouge&quot;&gt;git clone&lt;/code&gt; your github.io repository into whatever folder or workspace you prefer working on on your desktop.&lt;/p&gt;
+
+&lt;p&gt;Now, using the Ruby dev environment we installed earlier, you’re going to install the bundler package with &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt; and then &lt;code class=&quot;highlighter-rouge&quot;&gt;bundler install&lt;/code&gt; after bundler is done installing. The bundler package is what’s going to be building your website on a local server and committing all the changes to your blog live. Sounds scary, but neat!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/mmm.gif&quot; alt=&quot;mmm.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For installing necessary functions, you’re going to have to run &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;, obviously the most important package we’ll be using to build this baby.&lt;/p&gt;
+
+&lt;p&gt;Finally, you can initialize your Jekyll blog by running &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new .&lt;/code&gt; in the remote repo that you cloned earlier, and there should now be at least the following files and directories which you can see by running the &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; command (if you don’t know how to already):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts/&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_posts/&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_site/&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Try writing something in &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, which is the layout and essentially homepage of your blog. After that, push and commit your changes with &lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt; ,  &lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt; , and &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot;your message here&quot;&lt;/code&gt; to publish to your repo.&lt;/p&gt;
+
+&lt;p&gt;You will also want to configure your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file next since that will be the meat of how your blog is structured in Jekyll. For customizability’s sake, I’ll let you do the research on what plugins you want for your config file. But for reference, I will list a template of my &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file and what I put (do not include brackets as indicated except for the exclude line):&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Site settings
+name: [Name of your website here]
+title: null
+description: [Something something]
+url: [Not necessary unless you have a custom domain like me]
+base-url: [/name.github.io]
+relative_url: [same as your base-url]
+
+# Social Media and Contact Info
+twitter_username: nooduulz
+github_username:  noodulz
+email: jocelyndzuong@ufl.edu
+
+# Build settings
+timezone: America/New_York
+markdown: kramdown
+remote_theme: mattvh/solar-theme-jekyll
+plugins:
+  - jekyll-feed
+  - jemoji
+gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
+permalink: /:year/:month/:day/:title/
+paginate: 10
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;There should also be a Gemfile that allows for the Gem plugins to be enabled on your website. It should look something like this:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source &quot;https://rubygems.org&quot;
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
+# This will help ensure the proper Jekyll version is running.
+# Happy Jekylling!
+# gem &quot;jekyll&quot;, &quot;~&amp;gt; 4.0.0&quot;
+gem &quot;jekyll-paginate&quot;
+gem &quot;jemoji&quot;
+# This is the default theme for new Jekyll sites. You may change this to anything you like.
+# gem &quot;minima&quot;, &quot;~&amp;gt; 2.5&quot;
+# If you want to use GitHub Pages, remove the &quot;gem &quot;jekyll&quot;&quot; above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+  gem &quot;jekyll-feed&quot;, &quot;~&amp;gt; 0.12&quot;
+end
+
+# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+# and associated library.
+install_if -&amp;gt; { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
+  gem &quot;tzinfo&quot;, &quot;~&amp;gt; 1.2&quot;
+  gem &quot;tzinfo-data&quot;
+end
+
+# Performance-booster for watching directories on Windows
+gem &quot;wdm&quot;, &quot;~&amp;gt; 0.1.1&quot;, :install_if =&amp;gt; Gem.win_platform?
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Also, if your build didn’t come with a &lt;code class=&quot;highlighter-rouge&quot;&gt;404.html&lt;/code&gt; file to display when the user goes to a non-existent page on your website, you can either build that up in &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt;. I have it in &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt; for reference as:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: default
+permalink: /404.html
+---
+
+&amp;lt;style type=&quot;text/css&quot; media=&quot;screen&quot;&amp;gt;
+    .container {
+        margin: 10px auto;
+        max-width: 600px;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 30px 0;
+        font-size: 4em;
+        line-height: 1;
+        letter-spacing: -1px;
+    }
+&amp;lt;/style&amp;gt;
+
+&amp;lt;div class=&quot;container&quot;&amp;gt;
+    &amp;lt;h1&amp;gt;&amp;lt;b&amp;gt;4OWO4&amp;lt;/b&amp;gt;&amp;lt;/h1&amp;gt;
+
+    &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Page not found&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+    &amp;lt;p&amp;gt;The requested page could not be found. Womp Womp Womp...&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;You can use this as reference in building one in &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt; if you don’t have it already.&lt;/p&gt;
+
+&lt;p&gt;Finally, you can stage the files (&lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;), push, and commit the changes to your repo! Be sure to do this before doing the next step. We’re almost done!&lt;/p&gt;
+
+&lt;p&gt;Now, run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve --watch&lt;/code&gt; (I believe that’s how you force run the server should there be errors?) and it should run smoothly and show you that you can &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl + c&lt;/code&gt; to stop the server from building the site (&lt;strong&gt;do not do this yet!&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;Now the drawback of this is that git and generators like jekyll take quite some time to fully commit all the changes to your website. So it may take at most 10 minutes to see the difference and finished product. But keep refreshing your github.io page and eventually there should be a blank page with some text from your index.html file.&lt;/p&gt;
+
+&lt;p&gt;From here on out, you can implement a &lt;a href=&quot;http://jekyllthemes.org&quot;&gt;custom Jekyll theme&lt;/a&gt; you prefer (which is what I did due to its ease). Be sure to replace any files in your repo as needed with the theme files and directories to fully implement the theme!&lt;/p&gt;
+
+&lt;p&gt;To start adding additional pages, you can add a &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; file with the page name in the home directory of the repo. Then edit the default.html or whatever layout file for your chosen theme and add an additional list at where the other pages are in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/code&gt; brackets or something like that, and link it to the &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; file you made (i.e. yourname.github.io/something.md). Here’s an outline of what a &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; page should include before putting any content:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+YAML front matter
+layout: default
+title: About
+permalink: /about
+---
+blah blah blah your content here
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And we’re done! I think? Let me know or contact me if I’m missing anything or if a step went wrong. I’m open to criticisms left and right.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/happysolar-2285cd.gif&quot; alt=&quot;happysolar-2285cd.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’d like to thank these sources for being truly resourceful and wholesomely time consuming in putting this site together:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/&quot;&gt;Smashing Magazine’s Jekyll and Github Pages Blog Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://michelleful.github.io/code-blog//2014/02/28/setting-up-a-jekyll-blog-on-github-pages/&quot;&gt;Michelle Fullwood’s Guide to Setting up a Jekyll Blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://24ways.org/2013/get-started-with-github-pages/&quot;&gt;24 Ways to Get Started with Github Pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html&quot;&gt;GitLab’s Start Using Git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;Jekyll Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can refer to the documentation should there be any minor build errors. Good luck and have fun! Hope this saved you a chunk of time as I tried to make this as concise and simplistically short. If not, I’ll be sure to improve in my clarity in the next post!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update: As per request, I’ve elaborated a little further on how to set up the Ruby DevKit Environment to run gem functions during build. Also fixed formatting in the code examples and demonstration. Elaborated on Gemfiles which is also important.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Jan 2020 21:17:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/01/15/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/15/welcome-to-jekyll/</guid>
+        
+        <category>git</category>
+        
+        <category>github</category>
         
         <category>jekyll</category>
         
-        <category>update</category>
+        <category>web development</category>
+        
+        
+        <category>blogging</category>
+        
+        <category>web</category>
+        
+      </item>
+    
+      <item>
+        <title>Example Article</title>
+        <description>&lt;p&gt;This is a example article.&lt;/p&gt;
+
+&lt;p&gt;Look, the difference between this article and the &lt;a href=&quot;/posts/examplo-post/&quot;&gt;example post&lt;/a&gt; is that this page, &lt;code class=&quot;highlighter-rouge&quot;&gt;comments&lt;/code&gt; are disable and &lt;code class=&quot;highlighter-rouge&quot;&gt;categories&lt;/code&gt; was changed from &lt;code class=&quot;highlighter-rouge&quot;&gt;posts&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;articles&lt;/code&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 Apr 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2016/04/30/example-article/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/04/30/example-article/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Example Article Pt Br</title>
+        <description>&lt;p&gt;Esse é só um exemplo de artigo, você pode ver melhor exemplo de texto no &lt;a href=&quot;/posts/example-post/&quot;&gt;example post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Note que a diferença para esse artigo e o exemplo de post é que nessa página, os comentários estão desabilitados e a categoria foi mudada de &lt;code class=&quot;highlighter-rouge&quot;&gt;post&lt;/code&gt; para &lt;code class=&quot;highlighter-rouge&quot;&gt;articles&lt;/code&gt;, mudando o lugar em que ele é listado na index.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 Apr 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2016/04/30/example-article-pt-br/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/04/30/example-article-pt-br/</guid>
+        
         
       </item>
     
   </channel>
 </rss>
 
+       <img src="/images/pikachurunning.gif" alt="pikapika" align="left" width="51" height="51">
     </div>
 
 
@@ -100,17 +377,18 @@
 
 
   <footer id="footer">
-    <p class="copyright">Copyright &copy; 2020 . Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="http://www.webmaster-source.com">Matt Harzewski</a></p>
+    <div>Noodle favicon made by <a href="https://www.flaticon.com/authors/smalllikeart" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <p class="copyright">Copyright &copy; 2020 Pho Hack's Sake 🍜. Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="http://www.webmaster-source.com">Matt Harzewski</a></p>
   </footer>
 
 
-
+  
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   <script src="/assets/js/jquery.mobilemenu.min.js"></script>
 
   <script>
     $(document).ready(function(){
-      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Navigate Here', 'prependTo': '#sidebar nav'});
     });
   </script>
 

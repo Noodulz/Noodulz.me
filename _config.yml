@@ -17,8 +17,9 @@ relative_url: "/Noodulz.me"
 twitter_username: nooduulz
 github_username: noodulz
 email: jocelyndzuong@ufl.edu
+theme: jekyll-theme-console
 markdown: kramdown
-remote_theme: mattvh/solar-theme-jekyll
+remote_theme: b2a3e8/jekyll-theme-console
 plugins:
 - jekyll-paginate
 gems:
