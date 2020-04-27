@@ -1,0 +1,65 @@
+I"�<h1 id="what-are-ctfs">What are CTFs???</h1>
+
+<p>For those of you who don’t know, a CTF, or Capture The Flag (no, not the sport) is an online hacking game where the goal is to find your way through various systems to find a ‘flag’, or password to solving a level in the game. It is often played by security professionals and enthusiasts alike to practice their skills and most importantly, learn new ones along the way as they play. The games come in a couple categories: forensics, cryptography, misc., binary exploitation (AKA pwn, which so many guys here are suckers for!), and web.
+<br />
+So, the security team that I am active in here on campus was in need of someone who can complete web CTF challenges in particular, since there was an immense lack of that (because EVERYONE wants to do pwn and binary exploits mainly. For real). And given I’ve spent way too much time on the Internet as a kid and was on and off with web challs and CTFs over the years, I figured, why not take it seriously this time? Plus, DEFCON’s Qualifiers are coming up right now, and I’d really like to contribute and compete somehow.</p>
+
+<h1 id="a-few-good-ctf-websites-to-start-off-in">A Few Good CTF Websites to Start Off In</h1>
+
+<p>I first found <a href="https://defendtheweb.net">Defend The Web!</a> which is a terrific terrific (and I cannot stress enough, TERRIFIC) site that offers great web challenges for beginners as well as a forum to discuss and offer hints (during a challenge) and solutions (after you solve a challenge). They are fun if not brain-stumping, and get you to do a lot of Googling (which is okay by the way! You aren’t expected to know EVERYTHING at first) to solve the challs. So far I’m almost 50% through, and can’t wait to go through more.
+<br />
+Then through a lot of my friends’ recommendation, I started <a href="https://picoctf.com">PicoCTF</a> which is a CTF game aimed at high schoolers and beginners. It offers a retro 8-bit like Unity game with a storyline to interact with the challenges as you solve them, which adds an extra layer of fun to approaching them in my opinion. I sought out the web exploitation challenges in particular, which start off really easy, much like Defend The Web, and then get progressively harder with having to Google a lot. However, the best hints are in the title of the challs themselves often, when it comes to Pico.</p>
+
+<h1 id="techniques">Techniques</h1>
+
+<p>So! I’ll get into the nitty gritty and explain the common techniques I’ve had to use in both those games:</p>
+
+<ul>
+  <li>
+    <p>Check the source code by right clicking and then hitting ‘Page Source’ or ‘Inspect Element’. Always do this first. Always. And read the source code closely. They will tell you everything you need to know to beat a level (well, more like offer weird formatted code for you to look into to exploit). And the beginner levels often have you searching the comments for the password, formatted as <code class="highlighter-rouge">&lt;!--flag--&gt;</code>. CTRL-F in source code is also another good thing to keep in mind.</p>
+  </li>
+  <li>
+    <p>There will be a point where you will have to learn about Robot files that block certain access to directories in a website. Should be formatted as www.this-website.com/robots.txt.</p>
+  </li>
+  <li>
+    <p>To create a basic POST form in HTML (think of your usual username and login page to send to a website as a request to login as user), open up a notepad or IDE and put this in:</p>
+  </li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>                                                                            
+  <span class="nt">&lt;form</span> <span class="na">action=</span><span class="s">"link to website here"</span> <span class="na">method=</span><span class="s">"post"</span><span class="nt">&gt;</span>
+     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"name"</span><span class="nt">&gt;</span>Password:<span class="nt">&lt;/label&gt;&lt;br/&gt;</span>
+     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">name=</span><span class="s">"password"</span> <span class="nt">/&gt;&lt;br&gt;&lt;br&gt;</span>
+     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">value=</span><span class="s">"Submit"</span><span class="nt">&gt;</span>
+     <span class="nt">&lt;/form&gt;</span>
+  <span class="nt">&lt;/html&gt;</span>   
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>For converting hashes and Base64s and Caesar Ciphers or anything like this, use this <a href="https://cryptii.com">godsend of a code cracking tool online</a>. Saves a lot of time. Caesar Ciphers are the ones often taught first so I recommend you get familiar with that early.</p>
+  </li>
+  <li>
+    <p>Some challs will ask you to access a website as a certain user. For that, you will need to go into ‘Inspect Element’, find the Network Conditions, and edit the User Agent field to mask yourself as admin or another user they ask for.</p>
+  </li>
+  <li>
+    <p>All images have text in them. You can right click on an image on your desktop, click “Open With…” or something along those lines, and have the image opened in an IDE or Notepad. Some challs will have you investigate the insides of an image for the flag, and that will be one of the things you’ll have to do.</p>
+  </li>
+  <li>
+    <p>People’s passwords on websites are often something about themselves or what they like. This makes for extremely weak passwords which you can bruteforce with. Keep that in mind.</p>
+  </li>
+  <li>
+    <p>24-bit files/images are a thing that can be reversed or converted back into a readable image.</p>
+  </li>
+  <li>
+    <p>You will also learn a lot about SQL Injections, which are super important. They are commands that you enter into a search or login box in a website that bypasses the check and gets you vulnerable user data (and a flag!). A common SQL command I’ve found that seems to be used a lot is <code class="highlighter-rouge">SELECT * FROM Users WHERE Username = 105 OR 1=1;</code>. <a href="https://www.w3schools.com/sql/sql_injection.asp">More on this here</a>.</p>
+  </li>
+  <li>
+    <p>Google. Google and inspecting the page source are your two best friends in this game.
+<br />
+That’s all I’ve found so far. So many times I’ve seen beginners at the security meetings I attend here get discouraged because they know absolutely nothing about where to look or what to know beforehand in solving a web challenge. And then they stop coming or leave defeated. So many of the professionals say you don’t have to know anything, just a curiosity to learn. And they’re right. 
+<br />
+But on the other hand, you’re much less likely to give up and become more engaged if you’ve spent countless hours involved with programming and computer-related projects as a kid beforehand. Sure beginners are all welcome to learn and solve challenges, but how do you make them stick with it when they don’t know anything at all or learned the perseverance in Googling and learning? I hope this article helps those beginners get over the obstacle and learning curve of diving into Web CTFs and challenges.</p>
+  </li>
+</ul>
+:ET
