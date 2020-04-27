@@ -1,5 +1,5 @@
 ---
-title: "CryptoHack Solutions"
+title: CryptoHack Solutions
 permalink: "/writeups/ProjectEuler/"
 layout: page
 ---
