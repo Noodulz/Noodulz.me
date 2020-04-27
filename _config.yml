@@ -1,6 +1,6 @@
 ---
 title: Noodulz
-timezone: UTC
+timezone: America/New_York
 collections:
   posts:
     title: Posts
@@ -15,8 +15,8 @@ header_pages:
 - index.md
 - about.md
 - projects.md
+- writeups/writeups.md
 - contact.md
-- writeups.md
 style: dark
 listen_for_clients_preferred_style: true
 plugins:
