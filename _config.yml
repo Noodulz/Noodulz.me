@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  writeups:
+    title: Writeups
+    output: true
 url: https://noodulz.me
 base-url: "/"
 relative_url: "/noodulz.me"
