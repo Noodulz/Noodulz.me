@@ -12,6 +12,7 @@ layout: post
 Implemented in Python 3. The problem is straight forward and asks to sum up any numbers that are a multiple of 3, and also a multiple of 5, which means we'd have to loop through numbers up to 1000 and add any numbers that are have a modulo of 0 when it comes to 3 or 5, even if the number is both a multiple of 3 and 5. 
 <br/>
 Solution:
+<br/>
 ```
 i = 0
 sum = 0
