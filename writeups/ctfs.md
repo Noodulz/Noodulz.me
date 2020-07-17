@@ -1,6 +1,6 @@
 ---
 title: CTF Writeups
-permalink: "/writeups/ctfs/csictf"
+permalink: "/writeups/ctfs/"
 layout: page
 ---
 
