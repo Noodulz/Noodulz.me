@@ -15,6 +15,7 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 * [OverTheWire](https://overthewire.org/wargames/), especially Bandit and Natas through Krypton challenges down the list are useful ongoing wargames to learn more about Linux and web security and exploitation through hands-on experience and useful hints should you get stuck. 
 * [HackSplaining](https://www.hacksplaining.com/lessons), a visual look at common vulnerabilities in web applications.
 * [Optional reading, but Code by Charles Petzold is also another good intro to how computers work and why to understand internals better for absolute beginners.](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
+* [MIT's The Missing Semester](https://missing.csail.mit.edu/) teaches you the tools needed to approach programming, hacking, and overall development. 
 <br/>
 ## Level 2
 * [TryHackMe's Zero to Hero Boxes Guide](https://blog.tryhackme.com/going-from-zero-to-hero/). There's a map for free members who can't or won't get the subscription, and a map for subscribed members. Personally I find this a much easier and similar alternative to HackTheBox, due to the numerous threads and hints and explanations in each of the boxes to help you understand concepts better. Though, it's best to keep practicing the concepts and exercises taught in the boxes as it can be so simple and easy to forget once you've finished a box. 
@@ -24,7 +25,8 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 ## Level 3
 * [HackTheBox](https://www.hackthebox.eu/). If you get stuck, there's always [Ippsec's videos](https://www.youtube.com/c/ippsec/playlists). Playing through the retired boxes is an especially good place to start off in HTB. 
 * [Pwnable.kr](https://pwnable.kr/) for a cute and fun approach to pwning challenges and binary exploitation. 
-* 
+* [VulnHub](https://www.vulnhub.com/). Similar to HackTheBox in that it provides downloadable Virtual Machines to practice hacking into.
+* [Microcorruption](https://microcorruption.com/login), an ongoing CTF focused on embedded security. 
 
 ## Level 4 (Or more for deeper understanding of computer and systems internals as well as other specific fields)
 * [Nand2Tetris](https://www.nand2tetris.org/) teaches you how to build a computer and OS from the ground up. A deep dive into operating systems. 
