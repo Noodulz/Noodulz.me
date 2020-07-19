@@ -2,7 +2,6 @@
 title: My Personal Structured Study Guide For Delving into Hacking
 date: 2020-07-18 19:34:00 -04:00
 permalink: "/_posts/hackguide"
-published: false
 layout: post
 ---
 
@@ -34,5 +33,12 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 * [Cryptohack](https://cryptohack.org/), a relatively new and very astounding website which teaches you cryptography through programming exercises (highly recommend the use of Python for this). Starts off easy but gets exponentially harder as you progress.
 * [Trail of Bit's Guide on Forensics](https://trailofbits.github.io/ctf/forensics/). There's not much friendly guides on learning computer forensics out there for those who are interested, but this guide is about the only one I found that provides a comprehensive overview of how to approach forensics challenges for if you encounter one in CTFs. 
 * [Systems Programming and Tools taught by Sanjiv Bhatia](http://www.cs.umsl.edu/~sanjiv/classes/cs2750/), lectures and walkthroughs on programming in the Linux/Unix environment. 
+<br/>
+## Some other fun sites to practice on
+* [Hellbound Hackers](https://www.hellboundhackers.org/). Old fashioned but I somehow prefer it much more compared to HackThisSite!.
+* [Enigma Group](https://www.enigmagroup.org/). Yet another web security training site but also I love the Alan Turing reference. 
+* [Try2Hack](http://www.try2hack.nl/)
+* [picoCTF](https://picoctf.com/). High school based CTF but also fun for beginners as well. Also great in exploring what topics you may be specifically interested in.
+* [Don't forget to check for upcoming CTFs at ctftime.org!](http://ctftime.org/)
 <br/>
 Realistically, you could approach any of these resources in any order you prefer depending on your level of experience. This, though, provides to me at least a more structured and streamlined way of learning security concepts in a progressing manner. I hope this also helps future readers interested in also breaking into the field. This list may be edited in the future as needed.
