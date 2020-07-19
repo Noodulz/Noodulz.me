@@ -33,6 +33,7 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 <br/><br/>
 ## Level 4 (Or more for deeper understanding of computer and systems internals as well as other specific fields)
 * [Nand2Tetris](https://www.nand2tetris.org/) teaches you how to build a computer and OS from the ground up. A deep dive into operating systems. 
+* [Hasherezade's Malware Analysis/Reverse Engineering Guide](https://hshrzd.wordpress.com/how-to-start/)
 * For a hands-on and lecture based approach to going through The Web Application Hacker's Handbook (if you're interested in web), look no further than [Sam Bowne's Securing Web Applications](https://samsclass.info/129S/129S_F16.shtml). I personally couldn't get through the book at first but having a video and exercises to follow along with through reading the book helped immensely in understanding the concepts better. 
 * [Awesome Gameboy Dev](https://project-awesome.org/gbdev/awesome-gbdev) for learning emulation, reverse engineering, and assembly and C for building and reversing all things Gameboys. 
 * [Cryptohack](https://cryptohack.org/), a relatively new and very astounding website which teaches you cryptography through programming exercises (highly recommend the use of Python for this). Starts off easy but gets exponentially harder as you progress.
