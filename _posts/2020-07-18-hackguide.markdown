@@ -24,3 +24,15 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 <br/>
 ## Level 3
 * [HackTheBox](https://www.hackthebox.eu/). If you get stuck, there's always [Ippsec's videos](https://www.youtube.com/c/ippsec/playlists). Playing through the retired boxes is an especially good place to start off in HTB. 
+* [Pwnable.kr](https://pwnable.kr/) for a cute and fun approach to pwning challenges and binary exploitation. 
+* 
+
+## Level 4 (Or more for deeper understanding of computer and systems internals as well as other specific fields)
+* [Nand2Tetris](https://www.nand2tetris.org/) teaches you how to build a computer and OS from the ground up. A deep dive into operating systems. 
+* For a hands-on and lecture based approach to going through The Web Application Hacker's Handbook (if you're interested in web), look no further than [Sam Bowne's Securing Web Applications](https://samsclass.info/129S/129S_F16.shtml). I personally couldn't get through the book at first but having a video and exercises to follow along with through reading the book helped immensely in understanding the concepts better. 
+* [Awesome Gameboy Dev](https://project-awesome.org/gbdev/awesome-gbdev) for learning emulation, reverse engineering, and assembly and C for building and reversing all things Gameboys. 
+* [Cryptohack](https://cryptohack.org/), a relatively new and very astounding website which teaches you cryptography through programming exercises (highly recommend the use of Python for this). Starts off easy but gets exponentially harder as you progress.
+* [Trail of Bit's Guide on Forensics](https://trailofbits.github.io/ctf/forensics/). There's not much friendly guides on learning computer forensics out there for those who are interested, but this guide is about the only one I found that provides a comprehensive overview of how to approach forensics challenges for if you encounter one in CTFs. 
+* [Systems Programming and Tools taught by Sanjiv Bhatia](http://www.cs.umsl.edu/~sanjiv/classes/cs2750/), lectures and walkthroughs on programming in the Linux/Unix environment. 
+<br/>
+Realistically, you could approach any of these resources in any order you prefer depending on your level of experience. This, though, provides to me at least a more structured and streamlined way of learning security concepts in a progressing manner. I hope this also helps future readers interested in also breaking into the field. This list may be edited in the future as needed.
