@@ -40,5 +40,5 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 * [Try2Hack](http://www.try2hack.nl/)
 * [picoCTF](https://picoctf.com/). High school based CTF but also fun for beginners as well. Also great in exploring what topics you may be specifically interested in.
 * [Don't forget to check for upcoming CTFs at ctftime.org!](http://ctftime.org/)
-<br/>
+<br/><br/>
 Realistically, you could approach any of these resources in any order you prefer depending on your level of experience. This, though, provides to me at least a more structured and streamlined way of learning security concepts in a progressing manner. I hope this also helps future readers interested in also breaking into the field. This list may be edited in the future as needed.
