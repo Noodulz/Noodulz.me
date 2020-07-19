@@ -16,7 +16,7 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 * [OverTheWire](https://overthewire.org/wargames/), especially Bandit and Natas through Krypton challenges down the list are useful ongoing wargames to learn more about Linux and web security and exploitation through hands-on experience and useful hints should you get stuck. 
 * [HackSplaining](https://www.hacksplaining.com/lessons), a visual look at common vulnerabilities in web applications.
 * [Optional reading, but Code by Charles Petzold is also another good intro to how computers work and why to understand internals better for absolute beginners.](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
-* [MIT's The Missing Semester](https://missing.csail.mit.edu/) teaches you the tools needed to approach programming, hacking, and overall development. 
+* [MIT's The Missing Semester](https://missing.csail.mit.edu/) teaches you the tools needed to approach programming, hacking, and overall development (i.e. Github, Docker, Vim, IDEs, BASH scripting etc). 
 <br/><br/>
 ## Level 2
 * [TryHackMe's Zero to Hero Boxes Guide](https://blog.tryhackme.com/going-from-zero-to-hero/). There's a map for free members who can't or won't get the subscription, and a map for subscribed members. Personally I find this a much easier and similar alternative to HackTheBox, due to the numerous threads and hints and explanations in each of the boxes to help you understand concepts better. Though, it's best to keep practicing the concepts and exercises taught in the boxes as it can be so simple and easy to forget once you've finished a box. 
