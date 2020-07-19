@@ -17,7 +17,7 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 * [HackSplaining](https://www.hacksplaining.com/lessons), a visual look at common vulnerabilities in web applications.
 * [Optional reading, but Code by Charles Petzold is also another good intro to how computers work and why to understand internals better for absolute beginners.](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
 * [MIT's The Missing Semester](https://missing.csail.mit.edu/) teaches you the tools needed to approach programming, hacking, and overall development (i.e. Github, Docker, Vim, IDEs, BASH scripting etc). 
-* [FreeCodeCamp](https://www.freecodecamp.org/) for learning HTML, CSS, JS, and web dev through projects and certifications to go for.
+* [FreeCodeCamp](https://www.freecodecamp.org/) for learning HTML, CSS, JS, and web development through projects and certifications to go for (so you know how to break them ;))
 <br/><br/>
 ## Level 2
 * [TryHackMe's Zero to Hero Boxes Guide](https://blog.tryhackme.com/going-from-zero-to-hero/). There's a map for free members who can't or won't get the subscription, and a map for subscribed members. Personally I find this a much easier and similar alternative to HackTheBox, due to the numerous threads and hints and explanations in each of the boxes to help you understand concepts better. Though, it's best to keep practicing the concepts and exercises taught in the boxes as it can be so simple and easy to forget once you've finished a box. 
