@@ -5,4 +5,4 @@ published: false
 layout: page
 ---
 
-[🗀/csictf 2020](noodulz.me/writeups/ctfs/
+[🗀/csictf 2020](noodulz.me/writeups/ctfs/csictf/)
