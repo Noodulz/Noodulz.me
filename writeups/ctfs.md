@@ -1,7 +1,6 @@
 ---
 title: CTF Writeups
 permalink: "/writeups/ctfs/"
-published: false
 layout: page
 ---
 
