@@ -5,4 +5,4 @@ permalink: "/writeups/ctfs/csictf/"
 layout: page
 ---
 
-[Pirates of The Memorial](noodulz.me/writeups/ctfs/csictf/)
+[Pirates of The Memorial](noodulz.me/writeups/ctfs/csictf/osintone)
