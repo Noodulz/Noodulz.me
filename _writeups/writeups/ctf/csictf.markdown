@@ -2,7 +2,6 @@
 title: Pirates of The Memorial
 date: 2020-07-17 17:33:00 -04:00
 permalink: "/writeups/ctfs/csictf/osintone"
-published: false
 layout: post
 ---
 
