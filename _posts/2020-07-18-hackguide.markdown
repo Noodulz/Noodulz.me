@@ -50,7 +50,6 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 
 ## Some other fun sites to practice on
 
-* [Hellbound Hackers](https://www.hellboundhackers.org/). Old fashioned but I somehow prefer it much more compared to HackThisSite!
 * [HackThisSite!](https://hackthissite.org) in case Hellbound Hackers is being wonky
 * [Enigma Group](https://www.enigmagroup.org/). Yet another web security training site but also I love the Alan Turing reference.
 * [Try2Hack](http://www.try2hack.nl/)
