@@ -6,9 +6,9 @@ layout: post
 ---
 
 `There is nothing on this page `
-
+<br/>
 Checking the source first, there literally is nothing to show. Or so it seems. If you look at the source of the image closely, it indicates that the source lies at `files/pixel.png`, which means there's an accessible directory called `files` on the page. When appending `/files` to the end of the URL, it leads us to a page with a parent directory, with files `pixel.png` and `users.txt`. Obviously, the password must lie in `users.txt`. Clicking the file, it shows a list of usernames and passwords and there goes natas3. 
-
+<br/>
 ```
 # username:password
 alice:BYNdCesZqW
