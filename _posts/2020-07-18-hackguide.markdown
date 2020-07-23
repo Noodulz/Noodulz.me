@@ -34,7 +34,7 @@ So after all that time spent, here I'll lay out a structured guide of resources 
 * [Pwnable.kr](https://pwnable.kr/) for a cute and fun approach to pwning challenges and binary exploitation.
 * [VulnHub](https://www.vulnhub.com/). Similar to HackTheBox in that it provides downloadable Virtual Machines to practice hacking into.
 * [Microcorruption](https://microcorruption.com/login), an ongoing CTF focused on embedded security.
-* For OSCP-like boxes on HTB and VulnHub, here's a [spreadsheet listing the boxes that are highly similar to the labs in the exam](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159) that also serves as another great way to build your skills overall.
+* For OSCP-like boxes on HTB and VulnHub, here's a [spreadsheet listing the boxes that are highly similar to the labs during the PWK course](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159) that also serves as another great way to build your skills overall.
 <br/><br/>
 
 ## Level 4 (Or more for deeper understanding of computer and systems internals as well as other specific fields)
