@@ -1,7 +1,7 @@
 ---
 title: Natas Solutions
 permalink: "/writeups/OverTheWire/Natas"
-layout: post
+layout: page
 ---
 
 [natas1](/writeups/OverTheWire/Natas/natas1)
