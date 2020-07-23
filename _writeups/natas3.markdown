@@ -12,7 +12,6 @@ When inspecting the source, there is a comment leaving a vague hint:
 *No more information leaks!! Not even Google will find it this time...*
 <br/>
 My first instinct was this must be a `robots.txt` challenge, as it typically bars users from certain webpages. Inputting it into the URL, it leads us to a page with:
-<br/>
 User-agent: *
 Disallow: /s3cr3t/
 <br/>
