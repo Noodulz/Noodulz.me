@@ -10,9 +10,11 @@ layout: post
 There are multiple ways to go about checking the source without rightclicking. One particular way is to save the webpage and open it up in a text editor or IDE, either by `CTRL+s` or clicking on settings and pressing "Save Webpage" in your browser. Once doing so, opening the page up in an editor should reveal the password at the bottom.
 <br/>
 
-    `<div id="content">
+    ```html
+    <div id="content">
     You can find the password for the
     next level on this page, but rightclicking has been blocked!
 
     <!--The password for natas2 is ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi -->
-    </div>`
+    </div>
+    ```
