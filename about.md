@@ -24,8 +24,8 @@ Student, Developer, Hacker
 ## Education
 August 2019 - May 2023:
 University of Florida
-BSc, Computer Science
-Minor in Film Studies and Mathematics
+B.A. English
+Minor in Computer Science
 
 ## Experience
 UFSIT Webmaster and Developer
@@ -50,14 +50,14 @@ Aug 2019 - Jan 2020
 * Provided remote desktop support in Windows and Ubuntu via Powershell and BASH
 
 ## Skills
-* Programming Languages: Python, C, Java, Javascript
+* Programming Languages: Python, C, C++, Java, Javascript
 * Technologies: BASH Scripting (beginner), Powershell (beginner), Git, HTML, CSS,
 * Spoken Languages: Vietnamese (fluent), English (fluent), Japanese (beginner)
 
 ## Some Other Fun Facts About Me
 * I identify as a disastrous INFP (Re: MBTI)
 * I enjoy reading contemporary fiction and watching arthouse films 
-* An avid fan of Red Dead Redemption 2
+* An avid fan of video games
 * I love noodles with a passion
 * I use Arch by the way (no, really, I do. You must know.)
 
