@@ -58,6 +58,7 @@ Aug 2019 - Jan 2020
 * I identify as a disastrous INFP (Re: MBTI)
 * I enjoy reading contemporary fiction and watching arthouse films 
 * An avid fan of video games
+* I am (somewhat) of a pianist and like to draw
 * I love noodles with a passion
 * I use Arch by the way (no, really, I do. You must know.)
 
