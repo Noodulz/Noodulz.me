@@ -1,6 +1,7 @@
 ---
 title: Medium Cool
 date: 2020-09-01 20:30:00 -04:00
+permalink: "/writeups/filmEssays/mediumCool"
 layout: post
 ---
 
