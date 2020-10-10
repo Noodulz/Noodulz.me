@@ -10,6 +10,7 @@ layout: post
 I'd just like to first say, as someone who's already built 2 Discord bots, this challenge really peaked my interest and was also about the only thing that tore me away from sleeping in the rest of this Saturday afternoon.
 <br/>
 So my first instinct in enumerating and exploring the internals was the source code itself. When skimming through, you can see here that upon joining the bot server, new members automatically get assigned with a basic role:
+
 <br/>
 ```
 role=client.guilds[0].get_role(763128055429595156)
