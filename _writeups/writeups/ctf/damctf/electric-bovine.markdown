@@ -16,7 +16,7 @@ role=client.guilds[0].get_role(763128055429595156)
 
 awaitmember.add_roles(role)
 ```
-
+<br/>
 I played around with the commands listed in the help command. When scouring through the links with `!resource`, all 4 videos happened to be cow-related memes on long hour loops, which lead me to thinking that the flag must have something to do with the `!cowsay` command.
 <br/>
 However, upon triggering `!cowsay`, the bot sent back a denial due to permissions. So I must've had to somehow add a certain role for me to be able to trigger `!cowsay`. When looking at the `!cowsay` function, I found that it checked the user's role IDs to see if it was equal to or larger than the specified ID the `!cowsay` function was looking for:
@@ -35,7 +35,7 @@ elif(client.guilds[0].get_member(message.author.id).guild_permissions >= client.
    try:
       arg = message.content.split("!cowsay ")[1]
 ```
-
+<br/>
 So I tried adding the role with `!role_add`. However, I had to be in the server's channels to send that command. But when looking at the bot server, I was not allowed to send *any* messages. Weird.
 <br/>
 Then after a while of looking, I finally noticed that `!send_msg` could send anything to the #botspam channel that was hidden in the bot server. So I try injecting a command with `!send_msg !role_add @username <@!763128087226351638>` and make a dent! However, I get this message back:
