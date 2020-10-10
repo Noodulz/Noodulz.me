@@ -5,4 +5,4 @@ layout: page
 ---
 
 [csictf 2020](/writeups/ctfs/csictf/)
-[damctf 2020](/writeups/ctfs/damctf/)
+[//]: # [damctf 2020](/writeups/ctfs/damctf/)
