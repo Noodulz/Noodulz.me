@@ -1,7 +1,7 @@
 ---
 title: electric-bovine
 date: 2020-10-10 16:06:00 -04:00
-permalink: "/writeups/ctfs/damctf2020/"
+permalink: "/writeups/ctfs/damctf2020/electric-bovine"
 categories:
 - ctf
 layout: post
