@@ -11,14 +11,14 @@ I'd just like to first say, as someone who's already built 2 Discord bots, this 
 
 So my first instinct in enumerating and exploring the internals was the source code itself. When skimming through, you can see here that upon joining the bot server, new members automatically get assigned with a basic role:
 ```
-role=client.guilds\[0\].get_role(763128055429595156)
+role=client.guilds[0].get_role(763128055429595156)
 
 awaitmember.add_roles(role)
 ```
-I played around with the commands listed in the help command. When scouring through the links with \`!resource\`, all 4 videos happened to be cow-related memes on long hour loops, which lead me to thinking that the flag must have something to do with the \`!cowsay\` command.
+I played around with the commands listed in the help command. When scouring through the links with `!resource`, all 4 videos happened to be cow-related memes on long hour loops, which lead me to thinking that the flag must have something to do with the `!cowsay` command.
 
 
-However, upon triggering \`!cowsay\`, the bot sent back a denial due to permissions. So I must've had to somehow add a certain role for me to be able to trigger \`!cowsay\`. When looking at the \`!cowsay\` function, I found that it checked the user's role IDs to see if it was equal to or larger than the specified ID the \`!cowsay\` function was looking for:
+However, upon triggering `!cowsay`, the bot sent back a denial due to permissions. So I must've had to somehow add a certain role for me to be able to trigger `!cowsay`. When looking at the `!cowsay` function, I found that it checked the user's role IDs to see if it was equal to or larger than the specified ID the `!cowsay` function was looking for:
 ```
 else:
 
@@ -26,12 +26,12 @@ if message.author == client.user:
 
    return
 
-elif(client.guilds\[0\].get_member(message.author.id).guild_permissions >= client.guilds\[0\].get_role(763128087226351638).permissions):
+elif(client.guilds[0].get_member(message.author.id).guild_permissions >= client.guilds[0].get_role(763128087226351638).permissions):
 
 # accept, do cowsay.
 
    try:
-      arg = message.content.split("!cowsay ")\[1\]
+      arg = message.content.split("!cowsay ")[1]
 ```
 So I tried adding the role with `!role_add`. However, I had to be in the server's channels to send that command. But when looking at the bot server, I was not allowed to send *any* messages. Weird.
 
@@ -50,13 +50,13 @@ Granted role private to member Noodles. Well Done!
 ```
 Interesting indeed...
 
-So now I could screw around with the cowsay command. However, when trying the obvious \`!cowsay cat flag.txt\`, I get back an invalid character message. Turns out, in the source code, that no special characters were allowed nor even whitespaces. Darn. Obviously this was a command injection I had to complete with the \`!cowsay\` command, so how else could I bypass this?
+So now I could screw around with the cowsay command. However, when trying the obvious `!cowsay cat flag.txt`, I get back an invalid character message. Turns out, in the source code, that no special characters were allowed nor even whitespaces. Darn. Obviously this was a command injection I had to complete with the `!cowsay` command, so how else could I bypass this?
 
 
-Well! After testing out some other special characters like #, $, ;{}, and eventually <, I make yet another dent with <. When I send < to the \`!cowsay\` command, the bot returns a blank, and not the typical cow output I'd expected. So \`<\` must be something!
+Well! After testing out some other special characters like #, $, ;{}, and eventually <, I make yet another dent with <. When I send < to the `!cowsay` command, the bot returns a blank, and not the typical cow output I'd expected. So `<` must be something!
 
 
-Eventually I learn that I could filter through flag.txt to pipe it through and read, and boom, I finally get the flag with \`!cowsay <flag\`, which outputted this:
+Eventually I learn that I could filter through flag.txt to pipe it through and read, and boom, I finally get the flag with `!cowsay <flag`, which outputted this:
 ```
  __________________________
 < dam{discord_su_do_speen} >
