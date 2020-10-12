@@ -2,7 +2,6 @@
 title: electric-bovine
 date: 2020-10-10 16:06:00 -04:00
 permalink: "/writeups/ctfs/damctf/electric-bovine"
-published: false
 categories:
 - ctf
 layout: post
