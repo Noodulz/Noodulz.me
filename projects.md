@@ -4,9 +4,9 @@ permalink: "/project"
 layout: page
 ---
 
-* NoodlOS
+* [Lady Runner](https://noodulz.github.io/lady-runner)
 
-Source code to be released soon. A currently developing hardened Linux OS in Docker based on reinterpretcat's [LFS](https://github.com/reinterpretcat/lfs) project. Ports to .iso and comes with documentation.
+A CHIP-8 game made with Octo lang that consists of an extremely short and simple runner game involving beating incoming enemies to reach the princess and run away. Made part of Octojam 7. Also my first published game ever!
 
 * [TimmyTTS](https://github.com/Noodulz/timmyTTS)
 
