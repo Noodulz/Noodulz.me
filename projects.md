@@ -4,7 +4,7 @@ permalink: "/project"
 layout: page
 ---
 
-* [Lady Runner](https://noodulz.github.io/lady-runner)
+* [Lady Runner](https://noodulz.itch.io/lady-runner)
 
 A CHIP-8 game made with Octo lang that consists of an extremely short and simple runner game involving beating incoming enemies to reach the princess and run away. Made part of Octojam 7. Also my first published game ever!
 
